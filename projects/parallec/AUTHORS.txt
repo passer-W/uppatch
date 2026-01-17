@@ -1,0 +1,17 @@
+Parallec: Parallel Async HTTP/SSH/TCP/PING Client Library
+
+URL:   https://github.com/eBay/parallec
+
+Core developers (in order of appearance):
+
+- Yuanteng (Jeff) Pei (original author) <ypei@ebay.com>
+- Teng Song <tesong@ebay.com>
+
+Contributors:
+
+- Lukasz Kryger  http://stackoverflow.com/users/1240557/kryger
+- billzwu https://github.com/billzwu
+- faisal-hameed https://github.com/faisal-hameed
+- fivesmallq https://github.com/fivesmallq
+- bryant1410 https://github.com/bryant1410
+- djKooks https://github.com/djKooks

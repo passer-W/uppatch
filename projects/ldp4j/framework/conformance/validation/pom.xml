@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<!--
+
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+      This file is part of the LDP4j Project:
+        http://www.ldp4j.org/
+
+      Center for Open Middleware
+        http://www.centeropenmiddleware.com/
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+      Copyright (C) 2014-2016 Center for Open Middleware.
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+                http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+      Artifact    : org.ldp4j.framework:ldp4j-conformance-validation:0.2.2
+      Bundle      : ldp4j-conformance-validation-0.2.2.jar
+    #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+
+-->
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- =================================================================== -->
+	<!--   MODULE COORDINATES                                                -->
+	<!-- =================================================================== -->
+
+	<parent>
+		<groupId>org.ldp4j.framework</groupId>
+		<artifactId>ldp4j-conformance</artifactId>
+		<version>0.2.2</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<artifactId>ldp4j-conformance-validation</artifactId>
+
+	<!-- =================================================================== -->
+	<!--   MODULE INFORMATION                                                -->
+	<!-- =================================================================== -->
+
+	<name>LDP4j :: Framework :: Conformance :: Validation</name>
+	<description>Validation of the conformance of LDP4j w.r.t the LDP specification</description>
+
+	<!-- =================================================================== -->
+	<!--   BUILD SETTINGS                                                    -->
+	<!-- =================================================================== -->
+
+	<properties>
+		<frontend.http.port>80</frontend.http.port>
+		<failsafe.arg.line>-Xmx1024m -XX:MaxPermSize=256m</failsafe.arg.line>
+		<arquillian.core.version>1.1.12.Final</arquillian.core.version>
+		<arquillian.tomcat.version>1.0.0.CR9</arquillian.tomcat.version>
+		<shrinkwrap.core.version>1.2.6</shrinkwrap.core.version>
+		<shrinkwrap.descriptors.version>2.0.0-alpha-10</shrinkwrap.descriptors.version>
+		<shrinkwrap.resolver.version>2.2.5</shrinkwrap.resolver.version>
+
+		<!-- Common container configuration -->
+		<tomcat.major.version>7</tomcat.major.version>
+		<tomcat.version>${tomcat.major.version}.0.76</tomcat.version>
+		<archive.contentDir>apache-tomcat-${tomcat.version}</archive.contentDir>
+		<archive.name>apache-tomcat-${tomcat.version}</archive.name>
+		<archive.file>${archive.name}.zip</archive.file>
+		<archive.path>dist/tomcat/tomcat-${tomcat.major.version}/v${tomcat.version}/bin/</archive.path>
+		<archive.host>archive.apache.org</archive.host>
+		<archive.repository>http://${archive.host}/</archive.repository>
+		<archive.location>${archive.repository}${archive.path}</archive.location>
+		<tomcat.url>${archive.location}${archive.file}</tomcat.url>
+
+		<test.manager.username>manager-username</test.manager.username>
+		<test.manager.password>manager-password</test.manager.password>
+		<test.catalina.home>${project.build.directory}${file.separator}cargo${file.separator}installs${file.separator}${archive.name}${file.separator}${archive.contentDir}</test.catalina.home>
+
+		<test.baseUri>${project.baseUri}</test.baseUri>
+
+		<applications.baseScratchDirectory>${project.build.directory}${file.separator}applications</applications.baseScratchDirectory>
+
+		<!-- Specific container configuration -->
+		<application.home>${applications.baseScratchDirectory}${file.separator}local${file.separator}</application.home>
+		<application.catalina.base>${application.home}.container</application.catalina.base>
+		<application.appName>harvester</application.appName>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.ldp4j.framework</groupId>
+				<artifactId>ldp4j-conformance-fixture</artifactId>
+				<version>${ldp4j.version}</version>
+				<type>war</type>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.arquillian</groupId>
+				<artifactId>arquillian-bom</artifactId>
+				<version>${arquillian.core.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.shrinkwrap</groupId>
+				<artifactId>shrinkwrap-bom</artifactId>
+				<version>${shrinkwrap.core.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.shrinkwrap.descriptors</groupId>
+				<artifactId>shrinkwrap-descriptors-bom</artifactId>
+				<version>${shrinkwrap.descriptors.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.shrinkwrap.resolver</groupId>
+				<artifactId>shrinkwrap-resolver-bom</artifactId>
+				<version>${shrinkwrap.resolver.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.w3</groupId>
+			<artifactId>ldp-testsuite</artifactId>
+			<version>0.2.0-SNAPSHOT</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.ldp4j.commons</groupId>
+			<artifactId>ldp4j-commons-testing</artifactId>
+			<version>${project.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-integration</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jmockit</groupId>
+			<artifactId>jmockit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- HTTP unit testing utilities -->
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>2.4.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- To be removed iff any of the compile dependencies depends on Jena -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Arquillian related dependencies -->
+		<dependency>
+			<groupId>org.jboss.shrinkwrap.resolver</groupId>
+			<artifactId>shrinkwrap-resolver-depchain</artifactId>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.shrinkwrap.descriptors</groupId>
+			<artifactId>shrinkwrap-descriptors-depchain</artifactId>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.shrinkwrap</groupId>
+			<artifactId>shrinkwrap-depchain-java7</artifactId>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.arquillian.junit</groupId>
+			<artifactId>arquillian-junit-container</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.arquillian.container</groupId>
+			<artifactId>arquillian-tomcat-managed-7</artifactId>
+			<version>${arquillian.tomcat.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>sonatype-oss-public-snapshots</id>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+			<snapshots><enabled>true</enabled></snapshots>
+			<releases><enabled>false</enabled></releases>
+		</repository>
+	</repositories>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.codehaus.cargo</groupId>
+					<artifactId>cargo-maven2-plugin</artifactId>
+					<version>1.6.2</version>
+					<configuration>
+						<container>
+							<containerId>tomcat${tomcat.major.version}x</containerId>
+							<zipUrlInstaller>
+								<url>${tomcat.url}</url>
+								<downloadDir>${user.dir}${file.separator}.cargo${file.separator}</downloadDir>
+								<proxy>
+									<host>${cargo.proxy.host}</host>
+									<port>${cargo.proxy.port}</port>
+									<user>${cargo.proxy.user}</user>
+									<password>${cargo.proxy.password}</password>
+									<excludeHosts>${cargo.proxy.excludeHosts}</excludeHosts>
+								</proxy>
+							</zipUrlInstaller>
+						</container>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>reserve-integration-test-ports</id>
+						<phase>generate-test-resources</phase>
+						<goals>
+							<goal>reserve-network-port</goal>
+						</goals>
+						<configuration>
+							<portNames>
+								<portName>application.tomcat.http.port</portName>
+								<portName>application.tomcat.ajp.port</portName>
+								<portName>application.tomcat.rmi.port</portName>
+								<portName>application.tomcat.jmx.port</portName>
+							</portNames>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<configuration>
+					<systemPropertyVariables>
+						<java.util.logging.config.file>${basedir}${file.separator}src${file.separator}test${file.separator}resources${file.separator}logging.properties</java.util.logging.config.file>
+						<maven.repo.local>${settings.localRepository}</maven.repo.local>
+						<ldp4j.version>${project.version}</ldp4j.version>
+						<conformance.reports.path>${project.build.directory}${file.separator}conformance</conformance.reports.path>
+					</systemPropertyVariables>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.surefire</groupId>
+						<artifactId>surefire-junit47</artifactId>
+						<version>${maven.surefire.plugin.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.cargo</groupId>
+				<artifactId>cargo-maven2-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>install-container</id>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>install</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>configure-local-container</id>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>configure</goal>
+						</goals>
+						<configuration>
+							<configuration>
+								<home>${application.catalina.base}</home>
+								<properties>
+									<cargo.servlet.port>${application.tomcat.http.port}</cargo.servlet.port>
+									<cargo.tomcat.ajp.port>${application.tomcat.ajp.port}</cargo.tomcat.ajp.port>
+									<cargo.rmi.port>${application.tomcat.rmi.port}</cargo.rmi.port>
+								</properties>
+								<configfiles>
+									<configfile>
+										<file>${project.build.testOutputDirectory}${file.separator}container${file.separator}tomcat-users.xml</file>
+										<toDir>conf</toDir>
+									</configfile>
+									<configfile>
+										<file>${project.build.testOutputDirectory}${file.separator}container${file.separator}logging.properties</file>
+										<toDir>conf</toDir>
+									</configfile>
+								</configfiles>
+							</configuration>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>remove-webapss</id>
+						<phase>pre-integration-test</phase>
+						<goals>
+							<goal>clean</goal>
+						</goals>
+						<configuration>
+							<excludeDefaultDirectories>true</excludeDefaultDirectories>
+							<filesets>
+								<fileset>
+									<excludes>
+										<exclude>manager/**</exclude>
+									</excludes>
+									<directory>${application.catalina.base}${file.separator}webapps</directory>
+								</fileset>
+							</filesets>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

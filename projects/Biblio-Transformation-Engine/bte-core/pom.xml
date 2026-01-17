@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>gr.ekt.bte</groupId>
+    <artifactId>bte-parent</artifactId>
+    <version>0.9.3.5</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <groupId>gr.ekt.bte</groupId>
+  <artifactId>bte-core</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Biblio Transformation Engine :: Core</name>
+  <description>This is the core module of the Biblio-Transformation-Engine</description>
+
+  <properties>
+    <!-- This is the path to the root [dspace-src] directory. -->
+    <root.basedir>${basedir}/..</root.basedir>
+  </properties>
+
+</project>

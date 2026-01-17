@@ -1,0 +1,300 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.antelink.sourcesquare</groupId>
+	<artifactId>sourcesquare-client</artifactId>
+	<version>1.1.2-SNAPSHOT</version>
+
+	<description>SourceSquare Client</description>
+
+	<organization>
+		<name>Antelink</name>
+		<url>http://www.antelink.com/</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>GNU Affero General Public License</name>
+			<url>http://www.spdx.org/licenses/AGPL-3.0</url>
+			<distribution>manual</distribution>
+			<comments>Additional permission under GNU AGPL version 3 section 7
+
+If you modify this Program, or any covered work, by linking or combining it with Eclipse Java development tools (JDT) or Jetty (or a modified version of these libraries), containing parts covered by the terms of Eclipse Public License 1.0, the licensors of this Program grant you additional permission to convey the resulting work. Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Eclipse Java development tools (JDT) or Jetty used as well as that of the covered work.</comments>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/antelink/SourceSquare.git</connection>
+		<developerConnection>scm:git:git@github.com:antelink/SourceSquare.git</developerConnection>
+		<url>https://github.com/antelink/SourceSquare</url>
+	</scm>
+
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<properties>
+		<timestamp>${maven.build.timestamp}</timestamp> <!-- Workaround MRESOURCES-99 -->
+	</properties>
+	
+	
+
+	<dependencies>
+		<dependency>
+			<groupId>com.jgoodies</groupId>
+			<artifactId>forms</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mortbay.jetty</groupId>
+			<artifactId>jsp-2.1-glassfish</artifactId>
+			<version>2.1.v20100127</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mortbay.jetty</groupId>
+			<artifactId>jetty</artifactId>
+			<version>6.1.26</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mortbay.jetty</groupId>
+			<artifactId>jetty-rewrite-handler</artifactId>
+			<version>6.1.26</version>
+		</dependency>
+
+		<!-- Gson: Java to Json conversion -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<!--  Test dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+			<version>3.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-exec</artifactId>
+			<version>1.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.jwebunit</groupId>
+			<artifactId>jwebunit-htmlunit-plugin</artifactId>
+			<version>3.0</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<!-- Set versions and config of a few useful plugins -->
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.3.2</version>
+					<configuration>
+						<encoding>UTF-8</encoding>
+						<source>1.5</source>
+						<target>1.5</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>2.5</version>
+					<configuration>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.12</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-shade-plugin</artifactId>
+					<version>1.6</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>2.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<!-- Resource filtering to replace variables in about.html -->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<excludes>
+					<exclude>**/about.html</exclude>
+					<exclude>**/footer.jsp</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/about.html</include>
+					<include>**/footer.jsp</include>
+				</includes>
+			</resource>
+		</resources>
+
+		<plugins>
+			<!-- Check that license header is there on all source files -->
+			<plugin>
+				<groupId>com.mycila.maven-license-plugin</groupId>
+				<artifactId>maven-license-plugin</artifactId>
+				<version>1.9.0</version>
+			<!--	<executions>
+					<execution>
+						<id>check-header</id>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions> -->
+				<configuration>
+					<strictCheck>true</strictCheck>
+					<header>${basedir}/src/main/header.txt</header>
+					<excludes>
+						<exclude>**/*.txt</exclude>
+						<exclude>.gitignore</exclude>
+						<exclude>README</exclude>
+						<exclude>src/test/resources/toScan/**</exclude>
+						<exclude>src/main/resources/webapp/js/lib/*</exclude>
+						<exclude>**/*.xml</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<redirectTestOutputToFile>true</redirectTestOutputToFile>
+					<runOrder>alphabetical</runOrder>
+				</configuration>
+			</plugin>
+
+			<!-- Create packaging -->
+			<plugin>
+				<artifactId>maven-shade-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+						<configuration>
+							<shadedArtifactAttached>true</shadedArtifactAttached>
+							<filters>
+								<filter>
+									<artifact>*:*</artifact>
+									<excludes>
+										<exclude>RELEASE-NOTES.txt</exclude>
+										<exclude>overview.html</exclude>
+										<exclude>README.html</exclude>
+										<exclude>about.html</exclude>
+										<exclude>META-INF/LICENSE*</exclude>
+									</excludes>
+								</filter>
+							</filters>
+							<transformers>
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+									<mainClass>com.antelink.sourcesquare.SourceSquare</mainClass>
+								</transformer>
+							</transformers>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<!-- Private Maven repository -->
+	<distributionManagement>
+		<repository>
+			<id>maven-nexus.antelink.net</id>
+			<url>https://maven-nexus.antelink.net/content/repositories/releases/</url>
+			<name>Antelink Central</name>
+		</repository>
+		<snapshotRepository>
+			<id>maven-nexus.antelink.net</id>
+			<url>https://maven-nexus.antelink.net/content/repositories/snapshots/</url>
+			<name>Antelink Central</name>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<profiles>
+		<profile>
+			<id>funtest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>runtest</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<includes combine.children="append">
+										<include>**/*IT.java</include>
+									</includes>
+									<systemPropertyVariables>
+										<executable.file>${project.build.directory}/${project.build.finalName}.jar</executable.file>
+									</systemPropertyVariables>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+</project>

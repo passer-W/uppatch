@@ -1,0 +1,19 @@
+.classpath
+.project
+.settings
+target/
+
+#Eclipse bin folder
+bin
+
+*.log
+/doc/manual/doc_notes.org
+/doc/manual/Manual.pdf
+/doc/manual/Manual.tex
+workbench.xmi
+
+#Mac
+.DS_Store
+*.eml
+*.iml
+.idea/
