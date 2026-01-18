@@ -1,0 +1,14 @@
+[2025-05-24 04:52:08] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.10.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[93,10] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

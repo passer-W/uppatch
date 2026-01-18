@@ -1,0 +1,12 @@
+[2025-05-22 16:34:28] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 8.11.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[85,41] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 13:29:29] [INFO] Project: dropwizard-auth-jwt
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.8
+To Version: 10.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 87, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

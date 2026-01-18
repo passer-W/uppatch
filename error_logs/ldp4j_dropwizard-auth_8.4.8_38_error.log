@@ -1,0 +1,12 @@
+[2025-05-28 08:43:07] [ERROR] Project: ldp4j
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.4.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[96,9] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

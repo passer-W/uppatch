@@ -1,0 +1,14 @@
+[2025-05-25 06:06:05] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.9.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[96,24] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

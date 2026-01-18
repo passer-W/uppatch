@@ -1,0 +1,12 @@
+[2025-06-02 15:29:50] [INFO] Project: parallec
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.1
+To Version: 10.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 124, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

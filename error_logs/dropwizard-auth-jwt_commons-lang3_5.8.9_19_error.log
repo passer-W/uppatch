@@ -1,0 +1,14 @@
+[2025-06-04 01:48:10] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.8.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[87,8] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

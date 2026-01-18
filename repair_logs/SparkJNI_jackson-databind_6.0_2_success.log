@@ -1,0 +1,12 @@
+[2025-06-02 10:56:57] [INFO] Project: SparkJNI
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.8
+To Version: 6.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 66, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

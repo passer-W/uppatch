@@ -1,0 +1,12 @@
+[2025-05-26 03:16:59] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.7.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[46,32] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

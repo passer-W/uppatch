@@ -1,0 +1,12 @@
+[2025-06-02 17:31:00] [INFO] Project: javaembed
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 3.9
+To Version: 8.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 108, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

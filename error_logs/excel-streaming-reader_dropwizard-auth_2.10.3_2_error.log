@@ -1,0 +1,14 @@
+[2025-05-29 08:27:12] [ERROR] Project: excel-streaming-reader
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.10.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/excel-streaming-reader/App.java:[49,32] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

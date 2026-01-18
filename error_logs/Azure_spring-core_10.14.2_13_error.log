@@ -1,0 +1,12 @@
+[2025-05-28 13:43:24] [ERROR] Project: Azure
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.14.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[89,26] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

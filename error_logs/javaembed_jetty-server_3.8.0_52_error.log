@@ -1,0 +1,12 @@
+[2025-06-02 05:58:07] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.8.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[29,8] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-28 17:34:03] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.2.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[47,25] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-01 15:33:07] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.19.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[59,2] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

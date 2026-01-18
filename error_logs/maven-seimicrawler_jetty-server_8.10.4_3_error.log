@@ -1,0 +1,14 @@
+[2025-06-05 11:11:05] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.10.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[27,12] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

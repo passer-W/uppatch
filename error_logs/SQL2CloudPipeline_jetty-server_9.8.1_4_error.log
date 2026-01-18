@@ -1,0 +1,14 @@
+[2025-05-22 01:22:24] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.8.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[66,24] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

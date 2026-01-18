@@ -1,0 +1,12 @@
+[2025-06-01 03:12:58] [INFO] Project: excel-streaming-reader
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 2.3
+To Version: 6.1
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 119, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

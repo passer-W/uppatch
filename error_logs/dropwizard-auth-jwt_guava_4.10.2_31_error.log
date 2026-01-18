@@ -1,0 +1,12 @@
+[2025-05-17 04:10:25] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.10.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[37,23] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

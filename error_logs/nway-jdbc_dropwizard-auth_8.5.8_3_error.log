@@ -1,0 +1,12 @@
+[2025-05-26 03:01:59] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.5.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[32,39] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

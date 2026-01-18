@@ -1,0 +1,12 @@
+[2025-05-27 10:32:25] [ERROR] Project: Azure
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.16.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[100,24] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

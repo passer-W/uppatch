@@ -1,0 +1,14 @@
+[2025-05-24 21:13:35] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.9.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[19,5] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

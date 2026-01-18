@@ -1,0 +1,14 @@
+[2025-05-20 18:44:44] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.16.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[50,4] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

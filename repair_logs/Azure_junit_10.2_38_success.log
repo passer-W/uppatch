@@ -1,0 +1,12 @@
+[2025-06-01 12:02:52] [INFO] Project: Azure
+Successfully upgraded dependency: junit:junit
+From Version: 2.4
+To Version: 10.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

@@ -1,0 +1,12 @@
+[2025-05-15 17:00:33] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.2.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[23,29] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

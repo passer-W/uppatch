@@ -1,0 +1,14 @@
+[2025-05-28 17:03:12] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.13.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[35,50] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

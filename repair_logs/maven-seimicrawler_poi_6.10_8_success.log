@@ -1,0 +1,12 @@
+[2025-06-02 12:39:43] [INFO] Project: maven-seimicrawler
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 5.9
+To Version: 6.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

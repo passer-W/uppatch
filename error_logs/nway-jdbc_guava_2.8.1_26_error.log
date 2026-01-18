@@ -1,0 +1,14 @@
+[2025-05-20 21:22:01] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.8.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[43,43] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

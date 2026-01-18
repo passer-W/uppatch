@@ -1,0 +1,14 @@
+[2025-05-15 18:13:33] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[57,9] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

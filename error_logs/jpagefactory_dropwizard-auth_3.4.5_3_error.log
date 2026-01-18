@@ -1,0 +1,12 @@
+[2025-05-18 05:41:50] [ERROR] Project: jpagefactory
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.4.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/jpagefactory/App.java:[72,14] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

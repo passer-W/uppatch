@@ -1,0 +1,14 @@
+[2025-05-20 07:50:56] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.11.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[71,22] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

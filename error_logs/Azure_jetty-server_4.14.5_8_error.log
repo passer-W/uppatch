@@ -1,0 +1,12 @@
+[2025-05-19 16:07:47] [ERROR] Project: Azure
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.14.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[95,4] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

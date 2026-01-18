@@ -1,0 +1,12 @@
+[2025-06-01 13:12:21] [INFO] Project: maven-seimicrawler
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 4.3
+To Version: 9.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

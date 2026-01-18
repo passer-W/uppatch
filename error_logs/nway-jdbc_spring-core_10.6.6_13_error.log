@@ -1,0 +1,12 @@
+[2025-05-19 23:09:53] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.6.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[89,43] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

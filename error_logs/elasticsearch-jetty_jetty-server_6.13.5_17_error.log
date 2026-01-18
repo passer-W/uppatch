@@ -1,0 +1,12 @@
+[2025-05-17 22:22:05] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.13.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[73,30] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

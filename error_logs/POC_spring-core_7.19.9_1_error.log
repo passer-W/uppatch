@@ -1,0 +1,14 @@
+[2025-05-21 08:48:58] [ERROR] Project: POC
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.19.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC/App.java:[35,26] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

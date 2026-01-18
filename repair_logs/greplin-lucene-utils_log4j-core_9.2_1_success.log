@@ -1,0 +1,12 @@
+[2025-06-01 10:18:14] [INFO] Project: greplin-lucene-utils
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 3.7
+To Version: 9.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 125, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

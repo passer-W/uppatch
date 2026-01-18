@@ -1,0 +1,12 @@
+[2025-06-02 13:43:22] [INFO] Project: Biblio-Transformation
+Successfully upgraded dependency: junit:junit
+From Version: 1.0
+To Version: 6.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 143, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

@@ -1,0 +1,12 @@
+[2025-06-02 09:35:44] [INFO] Project: cypher_batch_writer
+Successfully upgraded dependency: junit:junit
+From Version: 4.1
+To Version: 8.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 139, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

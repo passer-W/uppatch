@@ -1,0 +1,12 @@
+[2025-05-30 17:20:25] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.10.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[32,7] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-20 04:58:33] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[50,39] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

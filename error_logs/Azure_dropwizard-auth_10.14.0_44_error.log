@@ -1,0 +1,12 @@
+[2025-05-20 10:15:24] [ERROR] Project: Azure
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.14.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[35,28] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

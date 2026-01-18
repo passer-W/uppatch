@@ -1,0 +1,12 @@
+[2025-05-27 23:03:54] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.11.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[65,38] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

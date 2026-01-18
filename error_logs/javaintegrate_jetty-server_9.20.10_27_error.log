@@ -1,0 +1,14 @@
+[2025-05-22 03:15:07] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.20.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[21,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

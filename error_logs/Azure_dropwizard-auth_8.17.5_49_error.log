@@ -1,0 +1,14 @@
+[2025-05-30 07:26:46] [ERROR] Project: Azure
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.17.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[87,16] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

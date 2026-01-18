@@ -1,0 +1,13 @@
+[2025-05-23 06:19:09] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 6.7.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[34,21] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

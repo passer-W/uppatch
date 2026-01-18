@@ -1,0 +1,13 @@
+[2025-06-01 14:22:08] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.19.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[96,4] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

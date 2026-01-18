@@ -1,0 +1,12 @@
+[2025-05-17 18:00:25] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.9.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[84,14] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

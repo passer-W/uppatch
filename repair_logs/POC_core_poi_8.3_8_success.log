@@ -1,0 +1,12 @@
+[2025-06-01 10:03:28] [INFO] Project: POC_core
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 1.0
+To Version: 8.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 147, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

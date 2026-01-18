@@ -1,0 +1,13 @@
+[2025-06-01 14:46:14] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.13.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[34,49] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 23:34:03] [INFO] Project: spring-boot-oauth2
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 5.2
+To Version: 8.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

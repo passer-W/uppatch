@@ -1,0 +1,12 @@
+[2025-06-01 21:49:49] [INFO] Project: javaembed
+Successfully upgraded dependency: junit:junit
+From Version: 1.7
+To Version: 6.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 51, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

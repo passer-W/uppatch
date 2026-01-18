@@ -1,0 +1,14 @@
+[2025-05-20 14:07:58] [ERROR] Project: parallec
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.11.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[89,30] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

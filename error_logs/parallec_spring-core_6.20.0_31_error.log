@@ -1,0 +1,13 @@
+[2025-06-03 21:24:42] [ERROR] Project: parallec
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.20.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[100,21] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-30 02:58:12] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.7.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[86,20] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

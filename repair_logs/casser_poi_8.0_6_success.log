@@ -1,0 +1,12 @@
+[2025-06-01 01:00:22] [INFO] Project: casser
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 1.1
+To Version: 8.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

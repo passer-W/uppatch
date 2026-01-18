@@ -1,0 +1,12 @@
+[2025-06-02 10:28:39] [INFO] Project: casser
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 4.8
+To Version: 8.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 118, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

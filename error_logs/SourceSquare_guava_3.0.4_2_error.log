@@ -1,0 +1,13 @@
+[2025-05-31 13:29:10] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.0.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[45,23] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-01 08:48:34] [INFO] Project: onos-byon
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.8
+To Version: 10.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 125, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

@@ -1,0 +1,14 @@
+[2025-06-02 09:42:54] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.15.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[71,50] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

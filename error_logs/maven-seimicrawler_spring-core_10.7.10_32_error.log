@@ -1,0 +1,14 @@
+[2025-06-03 17:33:26] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.7.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[83,11] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

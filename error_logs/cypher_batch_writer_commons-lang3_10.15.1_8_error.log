@@ -1,0 +1,14 @@
+[2025-05-29 04:51:21] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.15.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[24,26] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

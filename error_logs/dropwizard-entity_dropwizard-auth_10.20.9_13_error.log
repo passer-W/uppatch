@@ -1,0 +1,14 @@
+[2025-05-30 08:01:52] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.20.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[73,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

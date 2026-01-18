@@ -1,0 +1,12 @@
+[2025-05-22 10:59:36] [ERROR] Project: ldp4j
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.11.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[92,14] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

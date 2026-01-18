@@ -1,0 +1,12 @@
+[2025-06-01 21:44:45] [INFO] Project: dropwizard-entity
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 5.7
+To Version: 9.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 103, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

@@ -1,0 +1,12 @@
+[2025-06-01 05:48:05] [INFO] Project: spring-boot-oauth2
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 1.6
+To Version: 6.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 126, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

@@ -1,0 +1,12 @@
+[2025-05-25 10:32:20] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.8.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[57,11] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

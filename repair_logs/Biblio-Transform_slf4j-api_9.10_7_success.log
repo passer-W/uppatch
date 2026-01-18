@@ -1,0 +1,12 @@
+[2025-06-01 10:45:36] [INFO] Project: Biblio-Transform
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 1.2
+To Version: 9.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 135, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

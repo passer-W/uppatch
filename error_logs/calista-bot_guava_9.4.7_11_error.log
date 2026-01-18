@@ -1,0 +1,14 @@
+[2025-05-30 20:38:53] [ERROR] Project: calista-bot
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.4.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[53,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

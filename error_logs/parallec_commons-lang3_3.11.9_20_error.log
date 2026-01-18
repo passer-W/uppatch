@@ -1,0 +1,12 @@
+[2025-05-27 01:12:13] [ERROR] Project: parallec
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.11.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[100,39] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-17 17:03:47] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.1.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[57,15] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

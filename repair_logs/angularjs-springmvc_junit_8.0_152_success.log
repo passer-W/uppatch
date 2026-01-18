@@ -1,0 +1,12 @@
+[2025-06-01 18:32:41] [INFO] Project: angularjs-springmvc
+Successfully upgraded dependency: junit:junit
+From Version: 5.0
+To Version: 8.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 199, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

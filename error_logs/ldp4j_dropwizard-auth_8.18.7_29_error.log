@@ -1,0 +1,14 @@
+[2025-06-04 03:37:52] [ERROR] Project: ldp4j
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.18.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[80,5] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

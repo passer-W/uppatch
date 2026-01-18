@@ -1,0 +1,12 @@
+[2025-06-05 05:45:50] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.10.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[91,21] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

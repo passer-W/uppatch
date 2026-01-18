@@ -1,0 +1,14 @@
+[2025-05-21 11:31:42] [ERROR] Project: POC_core
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.12.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC_core/App.java:[25,49] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

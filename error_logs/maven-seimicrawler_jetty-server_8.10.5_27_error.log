@@ -1,0 +1,12 @@
+[2025-05-25 14:45:16] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.10.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[71,33] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

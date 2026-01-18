@@ -1,0 +1,12 @@
+[2025-06-02 01:40:28] [INFO] Project: dropwizard-entity
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.8
+To Version: 9.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

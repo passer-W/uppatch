@@ -1,0 +1,12 @@
+[2025-05-24 00:37:58] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 6.3.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[46,13] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

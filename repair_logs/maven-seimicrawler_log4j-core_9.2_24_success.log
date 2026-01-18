@@ -1,0 +1,12 @@
+[2025-06-02 14:25:21] [INFO] Project: maven-seimicrawler
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 3.8
+To Version: 9.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 166, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

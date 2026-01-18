@@ -1,0 +1,12 @@
+[2025-06-01 15:24:27] [INFO] Project: javaembed
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.3
+To Version: 8.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 146, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

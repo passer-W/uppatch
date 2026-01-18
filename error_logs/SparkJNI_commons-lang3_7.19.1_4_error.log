@@ -1,0 +1,12 @@
+[2025-05-27 00:31:59] [ERROR] Project: SparkJNI
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.19.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SparkJNI/App.java:[69,30] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 14:13:25] [INFO] Project: javaembed
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 3.10
+To Version: 6.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

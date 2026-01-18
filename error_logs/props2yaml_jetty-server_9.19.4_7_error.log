@@ -1,0 +1,14 @@
+[2025-05-19 19:51:05] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.19.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[99,48] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

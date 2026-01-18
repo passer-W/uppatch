@@ -1,0 +1,12 @@
+[2025-06-02 21:14:29] [INFO] Project: Scaled-ML
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.7
+To Version: 6.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

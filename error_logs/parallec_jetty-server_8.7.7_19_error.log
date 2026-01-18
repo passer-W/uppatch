@@ -1,0 +1,13 @@
+[2025-05-30 05:38:37] [ERROR] Project: parallec
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.7.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[53,18] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

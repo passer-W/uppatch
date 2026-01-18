@@ -1,0 +1,14 @@
+[2025-05-22 08:39:18] [ERROR] Project: Biblio-Transformation
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.3.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transformation/App.java:[70,7] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

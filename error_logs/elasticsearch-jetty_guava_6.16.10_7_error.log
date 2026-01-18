@@ -1,0 +1,14 @@
+[2025-05-15 18:07:33] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.16.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[65,47] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

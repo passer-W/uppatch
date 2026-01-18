@@ -1,0 +1,12 @@
+[2025-05-29 17:30:23] [ERROR] Project: Azure
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.15.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[21,15] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-26 16:27:18] [ERROR] Project: excel-streaming-reader
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.11.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/excel-streaming-reader/App.java:[50,11] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

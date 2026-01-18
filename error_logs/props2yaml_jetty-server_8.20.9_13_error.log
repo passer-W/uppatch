@@ -1,0 +1,14 @@
+[2025-05-31 10:44:56] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.20.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[45,42] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

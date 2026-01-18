@@ -1,0 +1,12 @@
+[2025-06-01 06:26:44] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.12.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[82,36] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-30 09:15:07] [ERROR] Project: kafka-connect
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.12.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/kafka-connect/App.java:[47,11] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

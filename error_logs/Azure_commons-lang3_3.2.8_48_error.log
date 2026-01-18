@@ -1,0 +1,12 @@
+[2025-05-30 03:32:48] [ERROR] Project: Azure
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.2.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[67,22] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

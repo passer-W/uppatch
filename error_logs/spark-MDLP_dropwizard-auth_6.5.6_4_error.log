@@ -1,0 +1,14 @@
+[2025-05-24 17:37:14] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 6.5.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[88,33] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 02:07:44] [INFO] Project: Azure
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 2.10
+To Version: 8.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

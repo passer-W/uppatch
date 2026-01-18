@@ -1,0 +1,12 @@
+[2025-06-02 01:03:24] [INFO] Project: ldp4j
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 3.2
+To Version: 6.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 184, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

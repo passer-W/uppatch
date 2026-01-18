@@ -1,0 +1,14 @@
+[2025-05-19 23:47:19] [ERROR] Project: ldp4j
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.16.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[31,35] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

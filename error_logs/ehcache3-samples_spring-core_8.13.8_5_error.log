@@ -1,0 +1,12 @@
+[2025-05-23 00:37:02] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 8.13.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[75,28] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

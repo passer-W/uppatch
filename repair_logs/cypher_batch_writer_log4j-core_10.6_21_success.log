@@ -1,0 +1,12 @@
+[2025-06-01 11:54:34] [INFO] Project: cypher_batch_writer
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 5.7
+To Version: 10.6
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 199, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

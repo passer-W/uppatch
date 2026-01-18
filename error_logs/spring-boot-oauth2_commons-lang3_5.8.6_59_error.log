@@ -1,0 +1,12 @@
+[2025-06-03 23:41:36] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.8.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[20,46] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

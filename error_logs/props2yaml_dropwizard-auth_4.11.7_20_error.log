@@ -1,0 +1,14 @@
+[2025-06-04 09:29:46] [ERROR] Project: props2yaml
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.11.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[77,41] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.
