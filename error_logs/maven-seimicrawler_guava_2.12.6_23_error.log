@@ -1,0 +1,12 @@
+[2025-09-27 19:57:28] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.12.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[49,5] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

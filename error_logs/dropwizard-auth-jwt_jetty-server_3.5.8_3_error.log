@@ -1,0 +1,13 @@
+[2025-05-13 20:23:28] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.5.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[41,24] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-12-13 21:15:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.4.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[90,9] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

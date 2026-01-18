@@ -1,0 +1,12 @@
+[2025-09-15 11:58:31] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.7.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[76,40] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

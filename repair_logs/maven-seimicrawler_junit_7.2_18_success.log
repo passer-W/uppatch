@@ -1,0 +1,12 @@
+[2025-05-01 18:14:28] [INFO] Project: maven-seimicrawler
+Successfully upgraded dependency: junit:junit
+From Version: 3.1
+To Version: 7.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 197, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

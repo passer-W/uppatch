@@ -1,0 +1,12 @@
+[2025-04-02 04:37:31] [INFO] Project: ehcache3-samples
+Successfully upgraded dependency: junit:junit
+From Version: 5.6
+To Version: 8.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 87, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

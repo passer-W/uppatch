@@ -1,0 +1,12 @@
+[2026-01-16 23:14:30] [INFO] Project: dropwizard-entity
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 4.5
+To Version: 10.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 72, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

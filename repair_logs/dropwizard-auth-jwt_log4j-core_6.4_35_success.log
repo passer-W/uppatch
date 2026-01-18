@@ -1,0 +1,12 @@
+[2025-10-14 08:05:28] [INFO] Project: dropwizard-auth-jwt
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 2.0
+To Version: 6.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 116, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

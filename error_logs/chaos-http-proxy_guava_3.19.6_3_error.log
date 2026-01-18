@@ -1,0 +1,14 @@
+[2025-12-16 11:33:28] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.19.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[86,48] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

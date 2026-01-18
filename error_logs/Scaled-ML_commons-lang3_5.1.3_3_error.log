@@ -1,0 +1,12 @@
+[2025-10-30 21:26:32] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.1.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[79,3] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-12-05 16:56:30] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.6.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[99,1] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

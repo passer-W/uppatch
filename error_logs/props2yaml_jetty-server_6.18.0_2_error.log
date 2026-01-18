@@ -1,0 +1,12 @@
+[2025-03-11 14:42:31] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.18.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[84,49] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-07-20 04:03:30] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.7.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[95,47] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

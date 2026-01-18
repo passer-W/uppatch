@@ -1,0 +1,12 @@
+[2025-10-19 15:03:28] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.2.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[93,7] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

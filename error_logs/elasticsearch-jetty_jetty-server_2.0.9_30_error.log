@@ -1,0 +1,14 @@
+[2025-12-08 10:21:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.0.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[38,1] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

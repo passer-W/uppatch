@@ -1,0 +1,12 @@
+[2025-05-11 12:27:28] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.9.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[99,36] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

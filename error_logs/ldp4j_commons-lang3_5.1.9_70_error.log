@@ -1,0 +1,14 @@
+[2025-10-23 02:59:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.1.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[31,41] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

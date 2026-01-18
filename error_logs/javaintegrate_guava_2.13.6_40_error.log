@@ -1,0 +1,14 @@
+[2025-10-13 00:57:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.13.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[82,14] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

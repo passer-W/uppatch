@@ -1,0 +1,12 @@
+[2025-06-03 14:38:28] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.15.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[78,49] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-12-13 06:42:30] [ERROR] Project: onos-byon
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.5.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/onos-byon/App.java:[88,46] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

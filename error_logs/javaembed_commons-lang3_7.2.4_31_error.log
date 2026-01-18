@@ -1,0 +1,14 @@
+[2025-11-02 08:44:32] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.2.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[89,50] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

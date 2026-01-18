@@ -1,0 +1,13 @@
+[2025-11-13 02:55:31] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.15.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[91,22] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

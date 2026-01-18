@@ -1,0 +1,13 @@
+[2025-06-19 08:52:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.17.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[86,4] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

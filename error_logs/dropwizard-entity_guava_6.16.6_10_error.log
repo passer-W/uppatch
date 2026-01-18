@@ -1,0 +1,12 @@
+[2025-04-24 22:28:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.16.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[50,33] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-08-09 12:36:31] [INFO] Project: Ferma
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 3.6
+To Version: 8.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 180, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

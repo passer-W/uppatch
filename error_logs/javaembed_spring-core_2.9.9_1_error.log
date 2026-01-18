@@ -1,0 +1,12 @@
+[2026-01-06 01:24:32] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.9.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[80,14] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

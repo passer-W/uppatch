@@ -1,0 +1,12 @@
+[2025-02-27 05:08:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.7.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[57,27] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-08-12 02:10:31] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.8.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[64,47] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

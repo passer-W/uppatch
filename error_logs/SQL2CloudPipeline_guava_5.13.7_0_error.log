@@ -1,0 +1,14 @@
+[2025-08-23 07:53:32] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 5.13.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[69,9] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

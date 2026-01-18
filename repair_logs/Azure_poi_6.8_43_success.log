@@ -1,0 +1,12 @@
+[2025-09-29 23:10:31] [INFO] Project: Azure
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 2.10
+To Version: 6.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 173, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

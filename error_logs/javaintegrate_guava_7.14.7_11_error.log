@@ -1,0 +1,14 @@
+[2025-05-14 16:57:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.14.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[69,38] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

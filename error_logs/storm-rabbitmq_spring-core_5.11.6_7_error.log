@@ -1,0 +1,12 @@
+[2025-12-15 13:52:31] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.11.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[59,14] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

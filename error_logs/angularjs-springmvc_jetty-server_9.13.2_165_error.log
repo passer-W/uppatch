@@ -1,0 +1,12 @@
+[2025-10-19 10:09:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.13.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[75,43] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-08-06 23:00:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.6.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[35,48] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

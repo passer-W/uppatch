@@ -1,0 +1,12 @@
+[2025-11-16 08:37:32] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.3.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[23,21] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

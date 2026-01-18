@@ -1,0 +1,12 @@
+[2025-07-21 14:57:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.17.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[68,35] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

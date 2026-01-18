@@ -1,0 +1,14 @@
+[2025-07-26 03:43:30] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.1.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[21,13] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

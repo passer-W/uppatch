@@ -1,0 +1,13 @@
+[2025-06-21 18:28:32] [ERROR] Project: SparkJNI
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.2.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SparkJNI/App.java:[88,43] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

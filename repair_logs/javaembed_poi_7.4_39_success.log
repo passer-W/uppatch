@@ -1,0 +1,12 @@
+[2025-05-25 00:58:32] [INFO] Project: javaembed
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 3.7
+To Version: 7.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 119, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

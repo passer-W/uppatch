@@ -1,0 +1,12 @@
+[2025-03-09 08:21:31] [INFO] Project: ehcache3-samples
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 5.7
+To Version: 9.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 164, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

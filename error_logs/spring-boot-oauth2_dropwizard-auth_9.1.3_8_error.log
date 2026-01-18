@@ -1,0 +1,14 @@
+[2026-01-16 03:22:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.1.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[90,12] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

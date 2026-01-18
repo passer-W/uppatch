@@ -1,0 +1,14 @@
+[2025-03-31 00:49:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.2.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[82,28] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

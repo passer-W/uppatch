@@ -1,0 +1,12 @@
+[2025-09-29 17:40:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.2.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[58,26] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

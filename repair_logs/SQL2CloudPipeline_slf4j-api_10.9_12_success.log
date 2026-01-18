@@ -1,0 +1,12 @@
+[2025-06-11 12:32:32] [INFO] Project: SQL2CloudPipeline
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 4.4
+To Version: 10.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 187, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

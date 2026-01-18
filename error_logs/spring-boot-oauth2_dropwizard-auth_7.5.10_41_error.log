@@ -1,0 +1,14 @@
+[2025-05-22 06:35:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.5.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[76,17] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

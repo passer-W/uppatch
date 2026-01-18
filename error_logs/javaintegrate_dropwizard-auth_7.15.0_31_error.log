@@ -1,0 +1,13 @@
+[2025-12-16 21:43:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.15.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[73,13] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-30 11:04:31] [ERROR] Project: Azure
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.12.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[67,6] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

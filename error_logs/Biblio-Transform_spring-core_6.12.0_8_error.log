@@ -1,0 +1,14 @@
+[2025-08-19 23:25:32] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.12.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[69,18] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

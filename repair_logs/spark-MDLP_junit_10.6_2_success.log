@@ -1,0 +1,12 @@
+[2025-12-13 08:47:31] [INFO] Project: spark-MDLP
+Successfully upgraded dependency: junit:junit
+From Version: 3.8
+To Version: 10.6
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 108, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

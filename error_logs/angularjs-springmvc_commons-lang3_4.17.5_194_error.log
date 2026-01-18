@@ -1,0 +1,12 @@
+[2025-09-13 05:14:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.17.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[11,33] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

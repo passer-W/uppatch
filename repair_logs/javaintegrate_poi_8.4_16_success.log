@@ -1,0 +1,12 @@
+[2025-03-30 17:16:32] [INFO] Project: javaintegrate
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.0
+To Version: 8.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 200, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

@@ -1,0 +1,12 @@
+[2025-03-31 04:01:32] [INFO] Project: ri.usef.energy
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 2.6
+To Version: 10.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 80, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

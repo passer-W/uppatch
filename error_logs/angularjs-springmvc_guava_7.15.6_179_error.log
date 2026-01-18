@@ -1,0 +1,12 @@
+[2025-11-20 11:07:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.15.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[39,18] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

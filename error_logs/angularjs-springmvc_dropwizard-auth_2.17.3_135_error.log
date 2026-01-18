@@ -1,0 +1,12 @@
+[2025-01-23 04:04:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.17.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[84,11] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-02-06 09:49:30] [INFO] Project: elasticsearch-jetty
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.8
+To Version: 9.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

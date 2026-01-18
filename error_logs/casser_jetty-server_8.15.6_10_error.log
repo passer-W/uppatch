@@ -1,0 +1,14 @@
+[2026-01-01 21:07:32] [ERROR] Project: casser
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.15.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[11,6] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

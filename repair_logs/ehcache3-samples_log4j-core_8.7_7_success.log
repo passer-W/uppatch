@@ -1,0 +1,12 @@
+[2025-03-06 20:28:31] [INFO] Project: ehcache3-samples
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 2.7
+To Version: 8.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 99, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

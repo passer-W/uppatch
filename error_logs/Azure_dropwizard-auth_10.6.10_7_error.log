@@ -1,0 +1,14 @@
+[2025-08-18 19:05:31] [ERROR] Project: Azure
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.6.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[91,24] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-09-01 20:29:30] [INFO] Project: elasticsearch-jetty
+Successfully upgraded dependency: junit:junit
+From Version: 1.2
+To Version: 10.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 144, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

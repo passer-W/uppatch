@@ -1,0 +1,12 @@
+[2025-04-30 19:32:31] [INFO] Project: ldp4j
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.9
+To Version: 7.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 151, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

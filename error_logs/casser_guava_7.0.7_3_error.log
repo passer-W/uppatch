@@ -1,0 +1,14 @@
+[2025-12-07 14:05:32] [ERROR] Project: casser
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.0.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[46,10] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

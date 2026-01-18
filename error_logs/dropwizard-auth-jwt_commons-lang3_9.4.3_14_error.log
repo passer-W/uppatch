@@ -1,0 +1,12 @@
+[2025-01-31 11:03:28] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.4.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[87,13] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

@@ -1,0 +1,13 @@
+[2025-12-05 09:45:30] [ERROR] Project: kafka-connect
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.10.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/kafka-connect/App.java:[91,48] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

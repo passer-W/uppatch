@@ -1,0 +1,14 @@
+[2025-09-25 17:38:31] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.19.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[12,14] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

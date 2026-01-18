@@ -1,0 +1,12 @@
+[2025-10-18 00:56:31] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 5.7.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[48,38] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-03 12:37:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.8.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[40,42] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

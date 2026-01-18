@@ -1,0 +1,14 @@
+[2025-12-26 11:54:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[20,35] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

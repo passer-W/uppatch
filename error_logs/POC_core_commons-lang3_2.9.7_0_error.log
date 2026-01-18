@@ -1,0 +1,14 @@
+[2025-10-25 06:44:32] [ERROR] Project: POC_core
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.9.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC_core/App.java:[40,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

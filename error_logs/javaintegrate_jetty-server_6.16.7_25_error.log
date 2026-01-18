@@ -1,0 +1,12 @@
+[2025-04-08 13:21:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[67,36] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

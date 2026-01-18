@@ -1,0 +1,14 @@
+[2025-05-03 22:47:28] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.19.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[10,20] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-09-22 11:05:31] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.1.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[82,6] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-01-25 11:38:31] [ERROR] Project: props2yaml
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.1.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[72,43] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

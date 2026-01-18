@@ -1,0 +1,12 @@
+[2025-01-25 08:56:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.14.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[80,48] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

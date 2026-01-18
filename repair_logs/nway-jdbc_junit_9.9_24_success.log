@@ -1,0 +1,12 @@
+[2025-08-05 08:13:32] [INFO] Project: nway-jdbc
+Successfully upgraded dependency: junit:junit
+From Version: 4.4
+To Version: 9.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 198, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

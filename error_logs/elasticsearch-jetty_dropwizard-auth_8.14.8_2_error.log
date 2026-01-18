@@ -1,0 +1,12 @@
+[2025-09-13 19:28:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.14.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[20,34] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

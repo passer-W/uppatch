@@ -1,0 +1,14 @@
+[2025-01-24 14:29:30] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.14.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[99,3] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

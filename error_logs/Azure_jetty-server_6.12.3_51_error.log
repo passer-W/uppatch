@@ -1,0 +1,14 @@
+[2025-11-09 09:20:31] [ERROR] Project: Azure
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.12.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[89,4] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

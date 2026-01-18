@@ -1,0 +1,14 @@
+[2025-05-29 17:31:31] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.1.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[81,32] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

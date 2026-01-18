@@ -1,0 +1,12 @@
+[2025-08-22 02:26:28] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.18.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[14,19] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

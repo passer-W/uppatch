@@ -1,0 +1,12 @@
+[2025-12-10 11:42:28] [INFO] Project: maven-seimicrawler
+Successfully upgraded dependency: junit:junit
+From Version: 5.7
+To Version: 9.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 107, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

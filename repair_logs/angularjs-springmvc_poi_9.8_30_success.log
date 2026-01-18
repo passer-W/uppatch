@@ -1,0 +1,12 @@
+[2025-08-07 20:04:30] [INFO] Project: angularjs-springmvc
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.3
+To Version: 9.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 165, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

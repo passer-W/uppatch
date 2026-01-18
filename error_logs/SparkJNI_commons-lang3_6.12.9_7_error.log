@@ -1,0 +1,12 @@
+[2025-07-08 14:51:32] [ERROR] Project: SparkJNI
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.12.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SparkJNI/App.java:[84,15] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

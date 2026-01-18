@@ -1,0 +1,13 @@
+[2025-09-14 06:30:32] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.16.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[49,40] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

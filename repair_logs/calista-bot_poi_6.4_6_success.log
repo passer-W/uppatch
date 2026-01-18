@@ -1,0 +1,12 @@
+[2025-10-09 02:01:31] [INFO] Project: calista-bot
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 1.6
+To Version: 6.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 142, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

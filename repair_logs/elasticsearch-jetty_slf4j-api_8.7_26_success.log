@@ -1,0 +1,12 @@
+[2025-05-31 01:40:30] [INFO] Project: elasticsearch-jetty
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 4.6
+To Version: 8.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 94, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

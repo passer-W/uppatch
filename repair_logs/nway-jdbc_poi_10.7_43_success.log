@@ -1,0 +1,12 @@
+[2025-10-04 03:01:32] [INFO] Project: nway-jdbc
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 2.6
+To Version: 10.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 135, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

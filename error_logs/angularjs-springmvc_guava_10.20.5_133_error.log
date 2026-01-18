@@ -1,0 +1,12 @@
+[2025-09-30 22:02:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.20.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[80,33] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

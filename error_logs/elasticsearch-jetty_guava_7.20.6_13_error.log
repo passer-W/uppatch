@@ -1,0 +1,14 @@
+[2025-01-20 01:41:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.20.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[41,25] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

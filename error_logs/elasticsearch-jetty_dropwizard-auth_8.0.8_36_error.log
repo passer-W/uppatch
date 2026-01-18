@@ -1,0 +1,14 @@
+[2025-02-10 15:45:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.0.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[76,40] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

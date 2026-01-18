@@ -1,0 +1,14 @@
+[2025-11-21 03:09:28] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.7.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[31,48] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

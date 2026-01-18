@@ -1,0 +1,12 @@
+[2025-05-08 18:13:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.18.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[96,48] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

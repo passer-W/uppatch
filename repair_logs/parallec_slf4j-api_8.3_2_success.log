@@ -1,0 +1,12 @@
+[2025-05-19 20:59:30] [INFO] Project: parallec
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.9
+To Version: 8.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

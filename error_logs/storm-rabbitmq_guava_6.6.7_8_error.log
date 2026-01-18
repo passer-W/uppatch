@@ -1,0 +1,12 @@
+[2025-04-14 20:09:31] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.6.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[91,33] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-21 12:43:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.10.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[21,22] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

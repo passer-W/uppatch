@@ -1,0 +1,14 @@
+[2025-01-30 22:52:30] [ERROR] Project: greplin-lucene-utils
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.14.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/greplin-lucene-utils/App.java:[53,40] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

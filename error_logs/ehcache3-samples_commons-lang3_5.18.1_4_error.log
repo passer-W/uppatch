@@ -1,0 +1,14 @@
+[2025-08-20 05:24:31] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.18.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[84,47] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-12-20 18:40:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.3.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[97,24] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

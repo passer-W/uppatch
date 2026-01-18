@@ -1,0 +1,14 @@
+[2025-02-02 10:02:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.6.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[21,32] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

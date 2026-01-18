@@ -1,0 +1,14 @@
+[2025-05-26 13:34:32] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.10.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[21,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

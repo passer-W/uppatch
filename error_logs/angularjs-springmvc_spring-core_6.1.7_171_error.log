@@ -1,0 +1,12 @@
+[2026-01-16 06:02:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.1.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[16,2] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

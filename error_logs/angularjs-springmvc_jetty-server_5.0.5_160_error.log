@@ -1,0 +1,13 @@
+[2025-03-13 09:00:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.0.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[34,43] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

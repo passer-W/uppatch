@@ -1,0 +1,12 @@
+[2025-01-18 00:06:32] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.3.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[49,50] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

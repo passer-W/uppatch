@@ -1,0 +1,12 @@
+[2025-02-28 21:35:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.9.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[42,36] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

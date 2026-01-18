@@ -1,0 +1,12 @@
+[2025-06-01 04:22:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.11.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[73,39] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

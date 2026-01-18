@@ -1,0 +1,12 @@
+[2025-06-27 10:38:31] [INFO] Project: calista-bot
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 1.4
+To Version: 8.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

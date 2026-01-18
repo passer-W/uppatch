@@ -1,0 +1,14 @@
+[2026-01-15 13:09:31] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 4.14.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[69,29] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

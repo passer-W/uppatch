@@ -1,0 +1,14 @@
+[2025-04-09 01:44:30] [ERROR] Project: parallec
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.14.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[67,32] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

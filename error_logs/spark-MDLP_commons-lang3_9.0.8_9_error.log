@@ -1,0 +1,14 @@
+[2025-04-22 03:06:31] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.0.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[78,12] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

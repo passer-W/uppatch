@@ -1,0 +1,14 @@
+[2025-09-23 17:58:28] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 8.17.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[73,47] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

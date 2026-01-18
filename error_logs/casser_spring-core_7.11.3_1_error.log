@@ -1,0 +1,12 @@
+[2025-02-28 08:09:32] [ERROR] Project: casser
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.11.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[23,13] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-04-15 10:54:31] [ERROR] Project: calista-bot
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.6.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[52,35] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

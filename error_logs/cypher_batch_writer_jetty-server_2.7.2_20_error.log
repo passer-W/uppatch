@@ -1,0 +1,14 @@
+[2025-09-16 09:19:28] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.7.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[63,21] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

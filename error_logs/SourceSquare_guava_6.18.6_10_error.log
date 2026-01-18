@@ -1,0 +1,14 @@
+[2025-08-24 04:33:30] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 6.18.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[35,3] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

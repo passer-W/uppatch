@@ -1,0 +1,14 @@
+[2025-03-17 08:58:31] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.8.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[87,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

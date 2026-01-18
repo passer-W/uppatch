@@ -1,0 +1,12 @@
+[2025-03-02 04:28:28] [INFO] Project: cypher_batch_writer
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 4.5
+To Version: 8.1
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

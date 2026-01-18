@@ -1,0 +1,12 @@
+[2025-08-04 08:38:30] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.6.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[10,24] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

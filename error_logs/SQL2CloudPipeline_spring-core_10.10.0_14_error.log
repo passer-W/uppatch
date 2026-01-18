@@ -1,0 +1,14 @@
+[2025-07-05 14:09:32] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.10.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[36,18] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

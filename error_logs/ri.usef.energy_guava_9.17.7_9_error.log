@@ -1,0 +1,12 @@
+[2025-02-25 04:40:32] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.17.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[46,31] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

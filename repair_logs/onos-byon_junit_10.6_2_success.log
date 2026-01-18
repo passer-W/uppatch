@@ -1,0 +1,12 @@
+[2025-04-21 00:32:30] [INFO] Project: onos-byon
+Successfully upgraded dependency: junit:junit
+From Version: 2.4
+To Version: 10.6
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 122, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

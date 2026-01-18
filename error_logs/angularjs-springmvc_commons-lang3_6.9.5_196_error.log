@@ -1,0 +1,14 @@
+[2025-09-30 10:46:31] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.9.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[12,40] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

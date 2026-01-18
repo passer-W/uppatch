@@ -1,0 +1,14 @@
+[2025-12-24 00:28:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.0.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[15,26] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

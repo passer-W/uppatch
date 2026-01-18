@@ -1,0 +1,12 @@
+[2025-10-11 12:32:28] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.17.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[78,7] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

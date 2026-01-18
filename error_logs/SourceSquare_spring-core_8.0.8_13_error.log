@@ -1,0 +1,14 @@
+[2026-01-02 19:02:30] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 8.0.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[66,47] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

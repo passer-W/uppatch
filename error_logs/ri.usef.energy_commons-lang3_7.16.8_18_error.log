@@ -1,0 +1,12 @@
+[2026-01-11 00:58:32] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.16.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[85,7] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

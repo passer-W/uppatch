@@ -1,0 +1,12 @@
+[2025-09-01 19:18:31] [INFO] Project: spring-boot-oauth2
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 4.10
+To Version: 8.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 177, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

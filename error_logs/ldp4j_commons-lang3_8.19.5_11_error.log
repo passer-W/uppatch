@@ -1,0 +1,14 @@
+[2025-04-18 08:45:31] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 8.19.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[48,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

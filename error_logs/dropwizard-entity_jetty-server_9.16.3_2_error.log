@@ -1,0 +1,14 @@
+[2025-03-01 10:35:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.16.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[21,44] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-01-19 17:56:32] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.10.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[18,17] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,13 @@
+[2025-12-11 08:22:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.12.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[16,43] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

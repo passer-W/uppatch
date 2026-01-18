@@ -1,0 +1,14 @@
+[2025-05-02 16:55:28] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 5.14.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[45,33] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

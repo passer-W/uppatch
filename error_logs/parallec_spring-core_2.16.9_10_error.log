@@ -1,0 +1,12 @@
+[2025-12-08 20:38:30] [ERROR] Project: parallec
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.16.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[73,12] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.
