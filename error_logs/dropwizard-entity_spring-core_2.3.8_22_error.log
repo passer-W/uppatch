@@ -1,0 +1,12 @@
+[2025-05-28 05:47:21] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.3.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[72,3] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

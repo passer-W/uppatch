@@ -1,0 +1,12 @@
+[2025-05-18 17:39:17] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.9.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[41,48] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

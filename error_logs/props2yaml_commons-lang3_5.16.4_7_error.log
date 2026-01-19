@@ -1,0 +1,12 @@
+[2025-05-27 16:16:52] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.16.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[55,21] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

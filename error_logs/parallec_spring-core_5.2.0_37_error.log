@@ -1,0 +1,12 @@
+[2025-05-26 00:35:03] [ERROR] Project: parallec
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.2.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[13,45] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

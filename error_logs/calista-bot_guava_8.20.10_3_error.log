@@ -1,0 +1,12 @@
+[2025-05-31 16:38:22] [ERROR] Project: calista-bot
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.20.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[34,35] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

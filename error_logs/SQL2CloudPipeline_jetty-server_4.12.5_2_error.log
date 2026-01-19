@@ -1,0 +1,14 @@
+[2025-05-30 18:42:37] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.12.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[100,10] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

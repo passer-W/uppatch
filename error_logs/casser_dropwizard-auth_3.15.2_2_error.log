@@ -1,0 +1,14 @@
+[2025-05-21 21:51:09] [ERROR] Project: casser
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.15.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[89,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

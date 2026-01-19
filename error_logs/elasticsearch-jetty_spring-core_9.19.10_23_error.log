@@ -1,0 +1,12 @@
+[2025-05-16 11:34:29] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.19.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[32,38] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

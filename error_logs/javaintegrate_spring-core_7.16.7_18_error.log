@@ -1,0 +1,14 @@
+[2025-05-23 22:35:04] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[36,29] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

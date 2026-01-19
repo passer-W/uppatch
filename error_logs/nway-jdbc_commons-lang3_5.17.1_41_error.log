@@ -1,0 +1,13 @@
+[2025-05-25 15:50:58] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.17.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[84,35] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

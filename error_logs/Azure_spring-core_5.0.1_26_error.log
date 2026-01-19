@@ -1,0 +1,12 @@
+[2025-05-23 06:08:02] [ERROR] Project: Azure
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.0.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[71,4] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

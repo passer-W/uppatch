@@ -1,0 +1,12 @@
+[2025-05-20 02:33:14] [ERROR] Project: javaembed
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.5.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[20,48] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

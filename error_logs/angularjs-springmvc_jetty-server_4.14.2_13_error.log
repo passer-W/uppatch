@@ -1,0 +1,14 @@
+[2025-06-01 02:52:40] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.14.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[83,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

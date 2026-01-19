@@ -1,0 +1,14 @@
+[2025-06-03 16:52:04] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.19.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[76,40] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

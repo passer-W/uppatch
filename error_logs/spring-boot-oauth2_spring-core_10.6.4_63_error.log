@@ -1,0 +1,12 @@
+[2025-05-21 23:48:19] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.6.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[25,25] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

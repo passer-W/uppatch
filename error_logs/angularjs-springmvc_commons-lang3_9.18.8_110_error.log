@@ -1,0 +1,12 @@
+[2025-06-02 10:05:45] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[60,23] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

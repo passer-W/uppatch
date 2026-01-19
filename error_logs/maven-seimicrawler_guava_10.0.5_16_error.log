@@ -1,0 +1,14 @@
+[2025-05-23 07:52:24] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.0.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[83,37] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

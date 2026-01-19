@@ -1,0 +1,12 @@
+[2025-06-01 22:45:43] [INFO] Project: dropwizard-auth-jwt
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 5.0
+To Version: 9.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

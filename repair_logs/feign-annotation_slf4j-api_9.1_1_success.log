@@ -1,0 +1,12 @@
+[2025-06-01 20:56:34] [INFO] Project: feign-annotation
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 3.2
+To Version: 9.1
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 115, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

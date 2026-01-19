@@ -1,0 +1,12 @@
+[2025-05-23 00:22:37] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.11.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[13,42] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

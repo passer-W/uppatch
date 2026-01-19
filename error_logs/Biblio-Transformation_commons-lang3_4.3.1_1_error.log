@@ -1,0 +1,14 @@
+[2025-05-26 01:28:04] [ERROR] Project: Biblio-Transformation
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.3.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transformation/App.java:[63,43] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 16:05:43] [INFO] Project: Azure
+Successfully upgraded dependency: junit:junit
+From Version: 3.4
+To Version: 7.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 151, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

@@ -1,0 +1,14 @@
+[2025-05-27 15:58:08] [ERROR] Project: Biblio-Transformation
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.19.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transformation/App.java:[97,2] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

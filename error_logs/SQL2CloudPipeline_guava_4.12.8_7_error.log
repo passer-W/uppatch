@@ -1,0 +1,12 @@
+[2025-06-02 20:45:36] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.12.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[16,38] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

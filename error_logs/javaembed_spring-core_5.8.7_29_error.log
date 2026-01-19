@@ -1,0 +1,12 @@
+[2025-05-24 22:14:54] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.8.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[66,23] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

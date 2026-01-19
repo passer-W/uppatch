@@ -1,0 +1,12 @@
+[2025-06-02 02:58:19] [INFO] Project: dropwizard-auth-jwt
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.2
+To Version: 10.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

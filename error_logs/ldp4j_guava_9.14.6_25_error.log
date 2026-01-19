@@ -1,0 +1,12 @@
+[2025-05-17 14:36:24] [ERROR] Project: ldp4j
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.14.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[73,4] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

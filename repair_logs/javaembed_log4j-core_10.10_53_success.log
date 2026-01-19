@@ -1,0 +1,12 @@
+[2025-06-01 16:33:14] [INFO] Project: javaembed
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 1.5
+To Version: 10.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 63, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

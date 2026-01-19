@@ -1,0 +1,12 @@
+[2025-06-01 03:02:32] [INFO] Project: spring-boot-oauth2
+Successfully upgraded dependency: junit:junit
+From Version: 5.10
+To Version: 9.4
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

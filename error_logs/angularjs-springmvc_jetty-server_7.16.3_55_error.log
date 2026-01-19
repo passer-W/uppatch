@@ -1,0 +1,12 @@
+[2025-06-01 22:16:42] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.16.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[45,49] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-21 19:12:29] [ERROR] Project: casser
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.20.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[49,8] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

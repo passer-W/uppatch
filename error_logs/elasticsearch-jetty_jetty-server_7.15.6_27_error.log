@@ -1,0 +1,12 @@
+[2025-06-01 17:20:17] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.15.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[68,5] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

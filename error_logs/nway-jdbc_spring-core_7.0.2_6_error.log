@@ -1,0 +1,14 @@
+[2025-05-24 21:56:57] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.0.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[89,33] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

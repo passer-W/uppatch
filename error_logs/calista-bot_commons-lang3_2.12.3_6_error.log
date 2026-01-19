@@ -1,0 +1,12 @@
+[2025-05-31 21:04:01] [ERROR] Project: calista-bot
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.12.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[75,7] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

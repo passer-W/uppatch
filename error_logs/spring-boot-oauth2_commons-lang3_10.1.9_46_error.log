@@ -1,0 +1,12 @@
+[2025-05-16 14:49:05] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.1.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[62,25] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

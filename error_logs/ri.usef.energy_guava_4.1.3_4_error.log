@@ -1,0 +1,14 @@
+[2025-05-17 16:59:15] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.1.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[100,16] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

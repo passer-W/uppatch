@@ -1,0 +1,14 @@
+[2025-05-31 20:05:58] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.18.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[85,22] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-29 02:18:15] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.14.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[35,32] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

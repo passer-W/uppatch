@@ -1,0 +1,14 @@
+[2025-05-24 16:22:52] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 5.5.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[75,49] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

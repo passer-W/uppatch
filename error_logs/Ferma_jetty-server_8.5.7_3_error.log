@@ -1,0 +1,14 @@
+[2025-05-25 14:26:55] [ERROR] Project: Ferma
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.5.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Ferma/App.java:[12,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

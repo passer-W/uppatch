@@ -1,0 +1,12 @@
+[2025-06-01 06:11:24] [ERROR] Project: excel-streaming-reader
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.16.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/excel-streaming-reader/App.java:[93,41] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

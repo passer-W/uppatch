@@ -1,0 +1,12 @@
+[2025-05-20 03:17:50] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.1.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[56,25] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

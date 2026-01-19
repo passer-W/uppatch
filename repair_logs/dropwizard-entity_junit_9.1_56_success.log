@@ -1,0 +1,12 @@
+[2025-06-02 00:05:05] [INFO] Project: dropwizard-entity
+Successfully upgraded dependency: junit:junit
+From Version: 2.2
+To Version: 9.1
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

@@ -1,0 +1,14 @@
+[2025-05-19 20:31:11] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.5.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[27,42] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

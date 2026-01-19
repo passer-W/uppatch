@@ -1,0 +1,14 @@
+[2025-06-02 06:56:24] [ERROR] Project: POC_core
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.9.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC_core/App.java:[11,41] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

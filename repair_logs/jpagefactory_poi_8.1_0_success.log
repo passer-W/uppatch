@@ -1,0 +1,12 @@
+[2025-06-01 23:12:54] [INFO] Project: jpagefactory
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 1.7
+To Version: 8.1
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

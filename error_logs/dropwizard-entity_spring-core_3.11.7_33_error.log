@@ -1,0 +1,12 @@
+[2025-05-22 11:30:07] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.11.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[48,8] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

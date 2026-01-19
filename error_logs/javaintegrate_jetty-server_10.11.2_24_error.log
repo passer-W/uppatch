@@ -1,0 +1,12 @@
+[2025-05-20 01:37:29] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.11.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[75,38] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

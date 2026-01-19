@@ -1,0 +1,12 @@
+[2025-05-17 17:17:51] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.10.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[70,48] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 02:15:49] [INFO] Project: props2yaml
+Successfully upgraded dependency: junit:junit
+From Version: 5.5
+To Version: 6.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 83, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

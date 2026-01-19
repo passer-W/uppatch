@@ -1,0 +1,14 @@
+[2025-05-29 06:58:32] [ERROR] Project: parallec
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.4.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[55,28] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

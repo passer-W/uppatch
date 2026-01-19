@@ -1,0 +1,14 @@
+[2025-05-24 14:24:52] [ERROR] Project: Ferma
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.16.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Ferma/App.java:[21,48] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

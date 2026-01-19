@@ -1,0 +1,12 @@
+[2025-05-21 07:38:20] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.19.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[85,7] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

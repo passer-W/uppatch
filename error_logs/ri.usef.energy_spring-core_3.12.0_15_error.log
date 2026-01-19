@@ -1,0 +1,13 @@
+[2025-06-01 01:15:27] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.12.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[48,35] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-28 09:14:59] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.17.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[24,19] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

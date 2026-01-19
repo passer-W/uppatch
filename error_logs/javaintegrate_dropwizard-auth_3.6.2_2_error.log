@@ -1,0 +1,14 @@
+[2025-05-29 15:33:22] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.6.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[32,13] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

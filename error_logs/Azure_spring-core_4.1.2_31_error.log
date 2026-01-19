@@ -1,0 +1,13 @@
+[2025-05-29 03:27:35] [ERROR] Project: Azure
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 4.1.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[38,27] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

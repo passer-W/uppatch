@@ -1,0 +1,12 @@
+[2025-05-16 20:41:16] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.4.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[90,41] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

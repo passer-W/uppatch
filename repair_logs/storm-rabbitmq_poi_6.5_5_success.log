@@ -1,0 +1,12 @@
+[2025-06-01 08:09:58] [INFO] Project: storm-rabbitmq
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 1.1
+To Version: 6.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 97, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

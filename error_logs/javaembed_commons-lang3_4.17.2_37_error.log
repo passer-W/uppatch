@@ -1,0 +1,12 @@
+[2025-05-16 19:03:51] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.17.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[70,27] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

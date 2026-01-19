@@ -1,0 +1,12 @@
+[2025-05-27 20:30:49] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 8.16.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[59,34] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

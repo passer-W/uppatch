@@ -1,0 +1,14 @@
+[2025-05-24 11:30:02] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.16.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[67,36] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-27 08:13:16] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.6.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[16,49] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

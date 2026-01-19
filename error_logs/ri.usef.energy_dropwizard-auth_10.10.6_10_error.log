@@ -1,0 +1,12 @@
+[2025-06-02 00:44:57] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.10.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[67,2] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

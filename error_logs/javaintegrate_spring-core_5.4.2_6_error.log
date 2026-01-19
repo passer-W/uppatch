@@ -1,0 +1,13 @@
+[2025-05-17 13:30:23] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.4.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[70,42] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

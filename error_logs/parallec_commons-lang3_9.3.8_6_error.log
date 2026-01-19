@@ -1,0 +1,14 @@
+[2025-06-02 11:14:43] [ERROR] Project: parallec
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.3.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[43,11] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

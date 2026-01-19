@@ -1,0 +1,14 @@
+[2025-06-05 08:45:46] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 8.1.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[24,42] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

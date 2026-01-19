@@ -1,0 +1,14 @@
+[2025-05-28 21:07:20] [ERROR] Project: jpagefactory
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.17.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/jpagefactory/App.java:[90,16] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

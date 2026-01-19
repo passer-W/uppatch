@@ -1,0 +1,14 @@
+[2025-05-27 14:11:29] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.6.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[56,48] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

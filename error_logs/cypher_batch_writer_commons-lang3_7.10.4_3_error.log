@@ -1,0 +1,14 @@
+[2025-05-21 03:50:21] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.10.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[65,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

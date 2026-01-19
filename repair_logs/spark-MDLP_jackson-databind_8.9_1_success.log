@@ -1,0 +1,12 @@
+[2025-06-02 12:31:22] [INFO] Project: spark-MDLP
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 5.9
+To Version: 8.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 136, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

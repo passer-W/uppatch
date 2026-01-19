@@ -1,0 +1,14 @@
+[2025-05-23 23:20:39] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 9.7.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[66,2] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

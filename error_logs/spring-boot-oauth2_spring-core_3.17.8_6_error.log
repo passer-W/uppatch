@@ -1,0 +1,12 @@
+[2025-05-16 06:35:35] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.17.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[14,5] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

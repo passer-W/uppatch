@@ -1,0 +1,12 @@
+[2025-06-01 01:54:58] [INFO] Project: ldp4j
+Successfully upgraded dependency: junit:junit
+From Version: 1.5
+To Version: 8.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 101, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

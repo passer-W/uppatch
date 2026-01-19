@@ -1,0 +1,12 @@
+[2025-05-25 10:10:40] [ERROR] Project: parallec
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 4.15.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[30,32] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

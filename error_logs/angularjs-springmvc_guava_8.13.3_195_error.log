@@ -1,0 +1,14 @@
+[2025-06-04 21:50:23] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.13.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[43,1] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

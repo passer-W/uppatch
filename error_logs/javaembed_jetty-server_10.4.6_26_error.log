@@ -1,0 +1,14 @@
+[2025-05-17 10:58:44] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.4.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[46,29] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

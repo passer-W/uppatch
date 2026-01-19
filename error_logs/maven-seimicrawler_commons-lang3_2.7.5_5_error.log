@@ -1,0 +1,12 @@
+[2025-05-18 19:03:52] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.7.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[59,21] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

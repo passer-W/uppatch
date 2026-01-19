@@ -1,12 +1,12 @@
-[2025-06-02 06:56:58] [INFO] Project: elasticsearch-jetty
+[2025-06-01 08:30:19] [INFO] Project: elasticsearch-jetty
 Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
-From Version: 3.8
+From Version: 5.3
 To Version: 10.8
 
 Build Status: SUCCESS
 Tests:
-[INFO] Tests run: 98, Failures: 0, Errors: 0, Skipped: 1
+[INFO] Tests run: 82, Failures: 0, Errors: 0, Skipped: 5
 
 Changes Applied:
 - Updated pom.xml dependency version.
-- No code changes required.
+- Refactored imports.

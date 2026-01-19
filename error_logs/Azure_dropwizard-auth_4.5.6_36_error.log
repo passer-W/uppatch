@@ -1,0 +1,13 @@
+[2025-05-18 22:58:02] [ERROR] Project: Azure
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.5.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[27,29] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

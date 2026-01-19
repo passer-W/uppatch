@@ -1,0 +1,12 @@
+[2025-05-20 07:49:34] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.13.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[46,12] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

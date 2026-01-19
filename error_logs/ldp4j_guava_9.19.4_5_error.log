@@ -1,0 +1,13 @@
+[2025-05-17 23:12:26] [ERROR] Project: ldp4j
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.19.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[52,21] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

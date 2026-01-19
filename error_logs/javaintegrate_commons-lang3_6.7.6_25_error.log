@@ -1,0 +1,14 @@
+[2025-06-05 08:53:10] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.7.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[49,43] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

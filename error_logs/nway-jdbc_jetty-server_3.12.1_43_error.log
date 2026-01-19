@@ -1,0 +1,14 @@
+[2025-06-04 04:26:29] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.12.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[85,21] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

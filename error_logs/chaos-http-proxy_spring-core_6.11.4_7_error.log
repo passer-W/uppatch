@@ -1,0 +1,12 @@
+[2025-05-30 10:04:48] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.11.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[93,24] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

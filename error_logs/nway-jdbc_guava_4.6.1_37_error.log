@@ -1,0 +1,14 @@
+[2025-05-29 20:04:54] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.6.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[70,3] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

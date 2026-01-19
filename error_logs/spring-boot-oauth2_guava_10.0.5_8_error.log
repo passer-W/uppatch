@@ -1,0 +1,12 @@
+[2025-05-28 10:19:37] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.0.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[38,42] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

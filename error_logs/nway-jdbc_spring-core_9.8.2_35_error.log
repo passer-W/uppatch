@@ -1,0 +1,14 @@
+[2025-05-25 01:21:58] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.8.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[58,21] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

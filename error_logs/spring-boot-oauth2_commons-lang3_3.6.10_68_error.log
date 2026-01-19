@@ -1,0 +1,12 @@
+[2025-05-26 21:41:18] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.6.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[44,21] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,13 @@
+[2025-05-30 19:45:31] [ERROR] Project: POC_core
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.14.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC_core/App.java:[62,27] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

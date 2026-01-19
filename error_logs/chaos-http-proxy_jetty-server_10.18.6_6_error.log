@@ -1,0 +1,14 @@
+[2025-06-02 05:55:32] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.18.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[24,45] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

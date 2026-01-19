@@ -1,0 +1,14 @@
+[2025-05-22 19:22:32] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.9.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[54,42] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

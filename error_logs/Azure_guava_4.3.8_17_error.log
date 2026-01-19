@@ -1,0 +1,14 @@
+[2025-05-26 00:34:23] [ERROR] Project: Azure
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.3.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[59,7] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

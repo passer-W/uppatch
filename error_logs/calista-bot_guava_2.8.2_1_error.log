@@ -1,0 +1,14 @@
+[2025-05-20 18:18:53] [ERROR] Project: calista-bot
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.8.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[58,32] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 23:04:08] [INFO] Project: parallec
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 5.4
+To Version: 10.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

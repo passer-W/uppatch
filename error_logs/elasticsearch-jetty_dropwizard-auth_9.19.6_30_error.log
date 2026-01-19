@@ -1,0 +1,12 @@
+[2025-05-26 02:25:41] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.19.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[25,37] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

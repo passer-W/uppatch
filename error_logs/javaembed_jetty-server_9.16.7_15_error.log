@@ -1,0 +1,12 @@
+[2025-05-17 19:44:13] [ERROR] Project: javaembed
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[47,27] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

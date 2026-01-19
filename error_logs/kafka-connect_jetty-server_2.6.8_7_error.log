@@ -1,0 +1,14 @@
+[2025-05-29 14:13:04] [ERROR] Project: kafka-connect
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 2.6.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/kafka-connect/App.java:[15,8] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

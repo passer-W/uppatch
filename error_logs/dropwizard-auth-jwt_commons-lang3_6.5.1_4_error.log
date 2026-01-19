@@ -1,0 +1,12 @@
+[2025-05-28 04:02:21] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.5.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[38,30] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

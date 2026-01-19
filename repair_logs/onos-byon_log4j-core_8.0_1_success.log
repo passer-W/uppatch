@@ -1,0 +1,12 @@
+[2025-06-02 12:03:57] [INFO] Project: onos-byon
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 1.8
+To Version: 8.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 124, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

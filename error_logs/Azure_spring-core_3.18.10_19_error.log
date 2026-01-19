@@ -1,0 +1,12 @@
+[2025-05-18 23:32:27] [ERROR] Project: Azure
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.18.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[61,42] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

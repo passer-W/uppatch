@@ -1,0 +1,12 @@
+[2025-05-22 16:15:34] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.17.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[89,30] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

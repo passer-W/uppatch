@@ -1,0 +1,12 @@
+[2025-05-27 03:54:58] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.17.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[65,10] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

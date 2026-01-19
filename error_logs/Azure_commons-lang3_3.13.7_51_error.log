@@ -1,0 +1,13 @@
+[2025-06-03 10:51:38] [ERROR] Project: Azure
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.13.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[97,28] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 16:25:50] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.9.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[82,17] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

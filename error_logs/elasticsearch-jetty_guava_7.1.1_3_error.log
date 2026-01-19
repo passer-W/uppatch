@@ -1,0 +1,12 @@
+[2025-05-25 07:37:15] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.1.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[94,25] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

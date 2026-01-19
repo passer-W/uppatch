@@ -1,0 +1,12 @@
+[2025-05-27 20:45:43] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.18.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[20,14] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

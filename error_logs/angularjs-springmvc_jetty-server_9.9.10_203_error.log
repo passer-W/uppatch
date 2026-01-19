@@ -1,0 +1,12 @@
+[2025-06-02 21:17:35] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.9.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[10,41] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

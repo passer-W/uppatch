@@ -1,0 +1,12 @@
+[2025-06-02 22:28:25] [INFO] Project: ldp4j
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.4
+To Version: 9.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 101, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

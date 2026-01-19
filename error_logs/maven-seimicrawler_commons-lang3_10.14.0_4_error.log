@@ -1,0 +1,14 @@
+[2025-06-01 11:37:28] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.14.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[76,11] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

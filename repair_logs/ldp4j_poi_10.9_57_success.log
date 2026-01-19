@@ -1,0 +1,12 @@
+[2025-06-02 19:51:06] [INFO] Project: ldp4j
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 2.8
+To Version: 10.9
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 101, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

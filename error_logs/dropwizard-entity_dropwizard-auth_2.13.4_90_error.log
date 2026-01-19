@@ -1,0 +1,12 @@
+[2025-05-26 06:36:15] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.13.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[19,4] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

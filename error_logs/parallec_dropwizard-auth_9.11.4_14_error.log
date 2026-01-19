@@ -1,0 +1,12 @@
+[2025-05-19 06:22:22] [ERROR] Project: parallec
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.11.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[40,22] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

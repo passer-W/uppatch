@@ -1,0 +1,12 @@
+[2025-06-04 15:04:39] [ERROR] Project: calista-bot
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.0.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[13,45] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

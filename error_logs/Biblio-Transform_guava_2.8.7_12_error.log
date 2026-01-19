@@ -1,0 +1,14 @@
+[2025-05-17 20:49:18] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.8.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[51,36] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

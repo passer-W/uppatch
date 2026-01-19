@@ -1,0 +1,14 @@
+[2025-05-19 16:17:35] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.18.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[61,29] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

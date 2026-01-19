@@ -1,0 +1,12 @@
+[2025-06-02 08:55:15] [INFO] Project: POC_core
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 3.5
+To Version: 8.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 199, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

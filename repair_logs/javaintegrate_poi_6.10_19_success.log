@@ -1,0 +1,12 @@
+[2025-06-01 14:07:18] [INFO] Project: javaintegrate
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.9
+To Version: 6.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

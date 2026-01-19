@@ -1,0 +1,12 @@
+[2025-06-02 03:14:07] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.13.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[22,14] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

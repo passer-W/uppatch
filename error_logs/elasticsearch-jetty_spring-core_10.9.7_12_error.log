@@ -1,0 +1,14 @@
+[2025-05-16 06:53:39] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.9.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[58,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

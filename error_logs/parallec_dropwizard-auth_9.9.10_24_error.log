@@ -1,0 +1,13 @@
+[2025-05-20 05:36:05] [ERROR] Project: parallec
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.9.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[44,50] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

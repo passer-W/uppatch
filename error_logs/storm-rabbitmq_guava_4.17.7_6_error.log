@@ -1,0 +1,14 @@
+[2025-06-01 08:05:45] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.17.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[62,2] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

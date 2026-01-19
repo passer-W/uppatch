@@ -1,0 +1,12 @@
+[2025-05-26 03:52:47] [ERROR] Project: ldp4j
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.12.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[34,45] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-23 23:39:08] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.15.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[40,41] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-31 20:24:51] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.14.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[94,35] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

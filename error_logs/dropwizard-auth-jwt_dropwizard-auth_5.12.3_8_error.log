@@ -1,0 +1,13 @@
+[2025-05-21 16:32:53] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.12.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[91,21] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

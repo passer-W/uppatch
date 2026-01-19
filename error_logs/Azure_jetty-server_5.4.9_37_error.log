@@ -1,0 +1,14 @@
+[2025-05-16 10:58:16] [ERROR] Project: Azure
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.4.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[39,1] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

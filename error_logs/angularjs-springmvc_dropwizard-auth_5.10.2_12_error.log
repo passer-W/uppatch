@@ -1,0 +1,14 @@
+[2025-06-03 16:23:36] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.10.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[91,13] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

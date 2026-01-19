@@ -1,0 +1,14 @@
+[2025-05-15 23:50:08] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.14.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[76,7] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-06-03 15:22:26] [ERROR] Project: parallec
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[32,45] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

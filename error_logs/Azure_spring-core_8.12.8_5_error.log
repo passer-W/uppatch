@@ -1,0 +1,14 @@
+[2025-05-22 08:32:08] [ERROR] Project: Azure
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 8.12.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[63,50] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

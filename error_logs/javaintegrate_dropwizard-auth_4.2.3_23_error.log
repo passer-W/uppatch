@@ -1,0 +1,12 @@
+[2025-06-04 21:37:59] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.2.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[29,22] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

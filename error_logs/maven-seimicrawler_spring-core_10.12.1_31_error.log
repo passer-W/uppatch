@@ -1,0 +1,14 @@
+[2025-05-16 07:32:54] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.12.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[19,14] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

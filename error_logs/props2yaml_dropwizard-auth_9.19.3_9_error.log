@@ -1,0 +1,12 @@
+[2025-05-19 10:55:33] [ERROR] Project: props2yaml
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.19.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[97,49] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

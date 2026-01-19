@@ -1,0 +1,12 @@
+[2025-06-01 04:15:20] [INFO] Project: chaos-http-proxy
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 4.6
+To Version: 6.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 68, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

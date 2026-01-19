@@ -1,0 +1,12 @@
+[2025-05-20 07:06:03] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.6.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[98,31] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

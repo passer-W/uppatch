@@ -1,0 +1,12 @@
+[2025-05-30 23:20:21] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 6.13.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[16,16] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

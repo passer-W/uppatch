@@ -1,0 +1,12 @@
+[2025-06-03 02:34:59] [ERROR] Project: ehcache3-samples
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.20.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ehcache3-samples/App.java:[32,49] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

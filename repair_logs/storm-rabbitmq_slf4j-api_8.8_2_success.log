@@ -1,0 +1,12 @@
+[2025-06-02 03:45:06] [INFO] Project: storm-rabbitmq
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.9
+To Version: 8.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 97, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

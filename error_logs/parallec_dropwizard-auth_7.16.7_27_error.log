@@ -1,0 +1,14 @@
+[2025-05-30 18:41:03] [ERROR] Project: parallec
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.16.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[10,19] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

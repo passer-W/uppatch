@@ -1,0 +1,12 @@
+[2025-06-02 14:13:33] [INFO] Project: Azure
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.7
+To Version: 7.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 151, Failures: 0, Errors: 0, Skipped: 0
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

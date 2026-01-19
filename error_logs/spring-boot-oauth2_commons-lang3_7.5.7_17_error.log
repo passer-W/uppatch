@@ -1,0 +1,12 @@
+[2025-05-17 01:31:54] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.5.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[43,3] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

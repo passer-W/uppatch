@@ -1,0 +1,14 @@
+[2025-05-16 21:40:13] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.17.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[87,3] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

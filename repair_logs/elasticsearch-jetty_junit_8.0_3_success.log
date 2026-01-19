@@ -1,0 +1,12 @@
+[2025-06-01 22:54:10] [INFO] Project: elasticsearch-jetty
+Successfully upgraded dependency: junit:junit
+From Version: 3.2
+To Version: 8.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 82, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

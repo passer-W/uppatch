@@ -1,0 +1,12 @@
+[2025-05-16 21:01:41] [ERROR] Project: POC_core
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 6.15.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/POC_core/App.java:[30,15] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

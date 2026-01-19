@@ -1,0 +1,14 @@
+[2025-06-01 17:49:09] [ERROR] Project: cypher_batch_writer
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.2.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/cypher_batch_writer/App.java:[53,45] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

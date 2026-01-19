@@ -1,0 +1,12 @@
+[2025-06-01 12:28:59] [INFO] Project: elasticsearch-jetty
+Successfully upgraded dependency: junit:junit
+From Version: 2.4
+To Version: 6.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 82, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

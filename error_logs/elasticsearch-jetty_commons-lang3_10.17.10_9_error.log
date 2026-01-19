@@ -1,0 +1,12 @@
+[2025-05-22 23:03:53] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.17.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[86,43] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

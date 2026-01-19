@@ -1,0 +1,14 @@
+[2025-05-16 19:03:01] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.14.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[43,22] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

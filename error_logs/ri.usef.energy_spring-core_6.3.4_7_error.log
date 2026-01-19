@@ -1,0 +1,12 @@
+[2025-05-22 00:09:18] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.3.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[25,2] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

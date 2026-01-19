@@ -1,0 +1,12 @@
+[2025-06-02 20:47:32] [INFO] Project: nway-jdbc
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.9
+To Version: 10.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 119, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

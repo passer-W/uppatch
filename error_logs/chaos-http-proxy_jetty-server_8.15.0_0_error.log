@@ -1,0 +1,12 @@
+[2025-06-02 15:39:21] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.15.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[61,9] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

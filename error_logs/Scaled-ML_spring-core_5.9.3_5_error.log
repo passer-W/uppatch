@@ -1,0 +1,12 @@
+[2025-06-01 17:50:10] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.9.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[13,40] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

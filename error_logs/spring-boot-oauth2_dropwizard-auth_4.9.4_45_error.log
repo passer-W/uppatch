@@ -1,0 +1,14 @@
+[2025-06-01 17:55:56] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 4.9.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[71,3] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

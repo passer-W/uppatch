@@ -1,0 +1,12 @@
+[2025-06-03 05:20:35] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 10.20.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[34,20] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

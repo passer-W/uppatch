@@ -1,0 +1,12 @@
+[2025-05-27 01:16:01] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.5.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[70,44] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-05-23 23:52:18] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 8.5.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[41,23] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-06-01 17:36:21] [ERROR] Project: Azure
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.2.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[24,3] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

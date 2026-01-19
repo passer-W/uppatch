@@ -1,0 +1,14 @@
+[2025-06-03 11:07:04] [ERROR] Project: angularjs-springmvc
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 10.7.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/angularjs-springmvc/App.java:[20,23] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

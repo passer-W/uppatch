@@ -1,0 +1,12 @@
+[2025-06-01 16:26:42] [INFO] Project: dropwizard-entity
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 3.6
+To Version: 7.10
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

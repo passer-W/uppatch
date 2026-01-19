@@ -1,0 +1,13 @@
+[2025-06-02 16:29:19] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.16.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[30,18] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

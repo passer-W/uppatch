@@ -1,0 +1,12 @@
+[2025-05-26 22:11:41] [ERROR] Project: Azure
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 8.20.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[13,37] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

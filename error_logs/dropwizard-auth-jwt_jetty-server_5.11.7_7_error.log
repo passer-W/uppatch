@@ -1,0 +1,12 @@
+[2025-05-27 14:04:13] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.11.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[41,22] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

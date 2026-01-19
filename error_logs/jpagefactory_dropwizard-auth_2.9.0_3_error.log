@@ -1,0 +1,14 @@
+[2025-05-31 03:59:54] [ERROR] Project: jpagefactory
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.9.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/jpagefactory/App.java:[77,35] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

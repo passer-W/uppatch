@@ -1,0 +1,14 @@
+[2025-06-05 06:09:02] [ERROR] Project: javaembed
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 7.3.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[63,1] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

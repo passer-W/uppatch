@@ -1,0 +1,13 @@
+[2025-05-15 19:02:54] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 9.16.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[50,19] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

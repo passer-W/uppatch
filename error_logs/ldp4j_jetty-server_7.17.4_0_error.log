@@ -1,0 +1,13 @@
+[2025-05-21 20:25:00] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.17.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[78,14] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

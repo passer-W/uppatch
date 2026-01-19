@@ -1,0 +1,13 @@
+[2025-06-03 13:28:35] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.14.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[38,40] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

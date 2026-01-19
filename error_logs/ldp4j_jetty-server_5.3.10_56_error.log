@@ -1,0 +1,14 @@
+[2025-05-31 05:00:08] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.3.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[58,38] cannot find symbol
+  symbol:   class Base64
+  location: package java.util
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

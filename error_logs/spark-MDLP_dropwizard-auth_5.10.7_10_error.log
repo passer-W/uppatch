@@ -1,0 +1,14 @@
+[2025-06-03 02:35:37] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 5.10.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[72,23] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

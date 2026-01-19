@@ -1,0 +1,12 @@
+[2025-05-20 15:57:54] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.5.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[56,39] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.

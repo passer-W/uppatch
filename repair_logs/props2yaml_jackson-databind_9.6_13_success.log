@@ -1,0 +1,12 @@
+[2025-06-01 19:00:39] [INFO] Project: props2yaml
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.10
+To Version: 9.6
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 83, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

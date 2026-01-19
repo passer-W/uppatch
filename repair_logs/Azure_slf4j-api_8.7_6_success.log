@@ -1,0 +1,12 @@
+[2025-06-02 19:06:00] [INFO] Project: Azure
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.7
+To Version: 8.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 151, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

@@ -1,0 +1,12 @@
+[2025-05-30 12:13:12] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 2.6.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[19,29] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

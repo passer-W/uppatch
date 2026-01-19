@@ -1,0 +1,12 @@
+[2025-06-02 06:30:19] [INFO] Project: parallec
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 2.4
+To Version: 9.0
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

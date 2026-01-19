@@ -1,0 +1,14 @@
+[2025-05-16 09:21:26] [ERROR] Project: javaembed
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.8.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[81,19] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-02 13:15:26] [INFO] Project: angularjs-springmvc
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 3.1
+To Version: 10.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 181, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

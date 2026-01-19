@@ -1,0 +1,12 @@
+[2025-05-18 11:06:44] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 3.13.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[76,16] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

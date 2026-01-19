@@ -1,0 +1,12 @@
+[2025-06-02 13:45:50] [INFO] Project: parallec
+Successfully upgraded dependency: junit:junit
+From Version: 4.0
+To Version: 8.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

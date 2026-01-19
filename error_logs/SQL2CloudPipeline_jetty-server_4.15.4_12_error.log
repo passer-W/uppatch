@@ -1,0 +1,12 @@
+[2025-05-30 21:52:43] [ERROR] Project: SQL2CloudPipeline
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.15.4
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SQL2CloudPipeline/App.java:[65,15] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

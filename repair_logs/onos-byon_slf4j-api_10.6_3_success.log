@@ -1,0 +1,12 @@
+[2025-06-02 14:16:13] [INFO] Project: onos-byon
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 4.5
+To Version: 10.6
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 124, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

@@ -1,0 +1,12 @@
+[2025-05-26 06:29:50] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 5.13.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[32,32] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

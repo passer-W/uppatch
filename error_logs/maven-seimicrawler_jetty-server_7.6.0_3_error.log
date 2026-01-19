@@ -1,0 +1,12 @@
+[2025-06-05 04:10:57] [ERROR] Project: maven-seimicrawler
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 7.6.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/maven-seimicrawler/App.java:[78,2] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

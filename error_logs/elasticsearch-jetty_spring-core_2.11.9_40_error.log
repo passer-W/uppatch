@@ -1,0 +1,12 @@
+[2025-06-01 20:03:06] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 2.11.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[92,24] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

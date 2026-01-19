@@ -1,0 +1,12 @@
+[2025-06-02 07:44:17] [INFO] Project: SQL2CloudPipeline
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 2.1
+To Version: 9.3
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 180, Failures: 0, Errors: 0, Skipped: 4
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

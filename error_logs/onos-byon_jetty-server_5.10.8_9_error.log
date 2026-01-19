@@ -1,0 +1,14 @@
+[2025-05-26 04:16:45] [ERROR] Project: onos-byon
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.10.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/onos-byon/App.java:[43,21] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

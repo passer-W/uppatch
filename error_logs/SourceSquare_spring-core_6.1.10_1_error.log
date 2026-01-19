@@ -1,0 +1,14 @@
+[2025-05-27 04:16:20] [ERROR] Project: SourceSquare
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 6.1.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/SourceSquare/App.java:[98,19] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

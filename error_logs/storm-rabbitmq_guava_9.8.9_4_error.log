@@ -1,0 +1,12 @@
+[2025-06-01 01:58:11] [ERROR] Project: storm-rabbitmq
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 9.8.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/storm-rabbitmq/App.java:[61,37] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

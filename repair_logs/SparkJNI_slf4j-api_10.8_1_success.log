@@ -1,0 +1,12 @@
+[2025-06-02 23:02:11] [INFO] Project: SparkJNI
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 3.3
+To Version: 10.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 188, Failures: 0, Errors: 0, Skipped: 2
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- No code changes required.

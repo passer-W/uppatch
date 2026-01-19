@@ -1,0 +1,14 @@
+[2025-05-27 03:30:32] [ERROR] Project: props2yaml
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.13.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/props2yaml/App.java:[87,10] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

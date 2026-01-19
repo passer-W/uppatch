@@ -1,0 +1,12 @@
+[2025-06-02 14:38:57] [INFO] Project: Biblio-Transform
+Successfully upgraded dependency: org.apache.poi:poi
+From Version: 4.5
+To Version: 6.7
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

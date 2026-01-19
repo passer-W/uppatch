@@ -1,0 +1,12 @@
+[2025-05-15 13:49:42] [ERROR] Project: dropwizard-entity
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 6.15.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-entity/App.java:[42,41] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

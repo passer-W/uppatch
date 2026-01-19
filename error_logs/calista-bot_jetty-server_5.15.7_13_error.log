@@ -1,0 +1,12 @@
+[2025-05-28 10:43:04] [ERROR] Project: calista-bot
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 5.15.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[19,7] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

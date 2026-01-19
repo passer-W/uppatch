@@ -1,0 +1,14 @@
+[2025-05-19 06:35:46] [ERROR] Project: parallec
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.12.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[35,24] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

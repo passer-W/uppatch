@@ -1,0 +1,14 @@
+[2025-05-22 08:15:31] [ERROR] Project: ri.usef.energy
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.6.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ri.usef.energy/App.java:[13,30] cannot find symbol
+  symbol:   class StringUtils
+  location: package org.apache.commons.lang3
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

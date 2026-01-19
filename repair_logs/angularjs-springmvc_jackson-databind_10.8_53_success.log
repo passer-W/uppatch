@@ -1,0 +1,12 @@
+[2025-06-02 08:09:47] [INFO] Project: angularjs-springmvc
+Successfully upgraded dependency: com.fasterxml.jackson.core:jackson-databind
+From Version: 3.3
+To Version: 10.8
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 181, Failures: 0, Errors: 0, Skipped: 1
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

@@ -1,0 +1,14 @@
+[2025-05-28 12:22:06] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 2.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[92,46] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

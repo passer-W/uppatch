@@ -1,0 +1,13 @@
+[2025-06-03 16:46:46] [ERROR] Project: Biblio-Transformation
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 8.14.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transformation/App.java:[16,29] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

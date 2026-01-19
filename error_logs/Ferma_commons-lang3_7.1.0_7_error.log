@@ -1,0 +1,12 @@
+[2025-05-18 11:07:11] [ERROR] Project: Ferma
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 7.1.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Ferma/App.java:[61,19] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

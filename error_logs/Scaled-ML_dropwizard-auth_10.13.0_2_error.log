@@ -1,0 +1,12 @@
+[2025-05-17 08:17:09] [ERROR] Project: Scaled-ML
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.13.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Scaled-ML/App.java:[71,24] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

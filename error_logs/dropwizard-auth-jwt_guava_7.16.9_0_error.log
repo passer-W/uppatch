@@ -1,0 +1,14 @@
+[2025-05-26 00:23:54] [ERROR] Project: dropwizard-auth-jwt
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 7.16.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/dropwizard-auth-jwt/App.java:[71,33] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-06-01 21:58:19] [ERROR] Project: javaembed
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 10.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaembed/App.java:[11,15] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-06-01 15:07:37] [ERROR] Project: chaos-http-proxy
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 2.14.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/chaos-http-proxy/App.java:[24,32] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

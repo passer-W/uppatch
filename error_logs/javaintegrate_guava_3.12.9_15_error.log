@@ -1,0 +1,13 @@
+[2025-05-18 00:57:13] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 3.12.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[21,3] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,12 @@
+[2025-05-17 17:24:25] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 3.19.1
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[33,50] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

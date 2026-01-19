@@ -1,0 +1,14 @@
+[2025-05-27 13:03:41] [ERROR] Project: spring-boot-oauth2
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 4.20.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spring-boot-oauth2/App.java:[48,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.google.common.collect.ImmutableList
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

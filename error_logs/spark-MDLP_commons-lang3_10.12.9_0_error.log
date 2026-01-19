@@ -1,0 +1,12 @@
+[2025-05-18 21:22:07] [ERROR] Project: spark-MDLP
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.12.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/spark-MDLP/App.java:[18,36] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

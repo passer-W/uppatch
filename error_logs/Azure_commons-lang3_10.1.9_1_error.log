@@ -1,0 +1,12 @@
+[2025-05-20 10:57:17] [ERROR] Project: Azure
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.1.9
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[64,29] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

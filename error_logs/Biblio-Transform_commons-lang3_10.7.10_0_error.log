@@ -1,0 +1,12 @@
+[2025-05-23 08:58:35] [ERROR] Project: Biblio-Transform
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 10.7.10
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Biblio-Transform/App.java:[49,21] package com.google.common.base does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package com.google.common.base does not exist
+Status: Upgrade Failed.

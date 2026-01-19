@@ -1,0 +1,12 @@
+[2025-05-31 07:27:33] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 7.20.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[28,42] Incompatible class change error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Incompatible class change error
+Status: Upgrade Failed.

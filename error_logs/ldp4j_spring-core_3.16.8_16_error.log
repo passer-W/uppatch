@@ -1,0 +1,12 @@
+[2025-05-21 07:44:43] [ERROR] Project: ldp4j
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 3.16.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/ldp4j/App.java:[90,43] package org.apache.commons.io does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package org.apache.commons.io does not exist
+Status: Upgrade Failed.

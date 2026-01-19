@@ -1,0 +1,14 @@
+[2025-05-19 10:04:53] [ERROR] Project: calista-bot
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 9.3.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/calista-bot/App.java:[34,48] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

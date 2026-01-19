@@ -1,0 +1,14 @@
+[2025-05-22 19:42:48] [ERROR] Project: casser
+Failed to upgrade dependency: org.apache.commons:commons-lang3
+Target Version: 8.1.3
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[88,42] cannot find symbol
+  symbol:   class ObjectMapper
+  location: package com.fasterxml.jackson.databind
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

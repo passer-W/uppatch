@@ -1,0 +1,12 @@
+[2025-06-02 19:59:02] [INFO] Project: javaintegrate
+Successfully upgraded dependency: org.apache.logging.log4j:log4j-core
+From Version: 2.10
+To Version: 7.2
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 5
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Refactored imports.

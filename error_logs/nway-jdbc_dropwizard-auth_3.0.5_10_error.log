@@ -1,0 +1,12 @@
+[2025-05-31 10:46:33] [ERROR] Project: nway-jdbc
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 3.0.5
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/nway-jdbc/App.java:[24,38] Could not find artifact in central
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Could not find artifact in central
+Status: Upgrade Failed.

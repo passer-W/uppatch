@@ -1,0 +1,13 @@
+[2025-05-29 22:21:50] [ERROR] Project: Azure
+Failed to upgrade dependency: com.google.guava:guava
+Target Version: 4.18.2
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/Azure/App.java:[49,25] no suitable method found for add(java.lang.String)
+    method java.util.Collection.add(java.lang.String) is not applicable
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: no suitable method found for add(java.lang.String)
+Status: Upgrade Failed.

@@ -1,0 +1,14 @@
+[2025-06-03 05:33:06] [ERROR] Project: casser
+Failed to upgrade dependency: io.dropwizard:dropwizard-auth
+Target Version: 6.14.7
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/casser/App.java:[86,2] cannot find symbol
+  symbol:   method isEmpty(java.lang.String)
+  location: class org.apache.commons.lang3.StringUtils
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: cannot find symbol
+Status: Upgrade Failed.

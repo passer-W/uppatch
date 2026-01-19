@@ -1,0 +1,12 @@
+[2025-06-01 22:55:54] [INFO] Project: spring-boot-oauth2
+Successfully upgraded dependency: org.slf4j:slf4j-api
+From Version: 2.5
+To Version: 8.5
+
+Build Status: SUCCESS
+Tests:
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 3
+
+Changes Applied:
+- Updated pom.xml dependency version.
+- Updated method signatures.

@@ -1,0 +1,12 @@
+[2025-05-19 00:36:34] [ERROR] Project: elasticsearch-jetty
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 9.6.0
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/elasticsearch-jetty/App.java:[69,6] package javax.servlet.http does not exist
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: package javax.servlet.http does not exist
+Status: Upgrade Failed.

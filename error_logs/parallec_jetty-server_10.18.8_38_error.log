@@ -1,0 +1,12 @@
+[2025-06-03 21:49:56] [ERROR] Project: parallec
+Failed to upgrade dependency: org.eclipse.jetty:jetty-server
+Target Version: 10.18.8
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/parallec/App.java:[58,12] method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: method does not override or implement a method from a supertype
+Status: Upgrade Failed.

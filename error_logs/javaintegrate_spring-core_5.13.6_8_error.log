@@ -1,0 +1,12 @@
+[2025-05-28 04:05:14] [ERROR] Project: javaintegrate
+Failed to upgrade dependency: org.springframework:spring-core
+Target Version: 5.13.6
+Error:
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /src/main/java/com/example/javaintegrate/App.java:[44,1] Dependency convergence error
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+
+Cause: Dependency convergence error
+Status: Upgrade Failed.
