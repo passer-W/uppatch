@@ -3,6 +3,8 @@ import time
 from config import Config
 from scanner import DependencyScanner
 from pom_updater import PomUpdater
+from pip_updater import PipUpdater
+from npm_updater import NpmUpdater
 from builder import BuildManager
 from fixer import AIFixer
 
@@ -12,13 +14,28 @@ class AutoPatcher:
     def __init__(self, project_path):
         self.project_path = project_path
         self.scanner = DependencyScanner(project_path)
-        self.updater = PomUpdater(project_path)
-        self.builder = BuildManager(project_path)
+        self.project_type = self.scanner.project_type
+        
+        if self.project_type == "maven":
+            self.updater = PomUpdater(project_path)
+        elif self.project_type == "pip":
+            self.updater = PipUpdater(project_path)
+        elif self.project_type == "npm":
+            self.updater = NpmUpdater(project_path)
+        else:
+            print(f"Unsupported project type at {project_path}")
+            self.updater = None
+
+        self.builder = BuildManager(project_path, self.project_type)
         self.fixer = AIFixer()
 
     def run(self):
-        print(f"=== Starting AutoPatcher for {self.project_path} ===")
+        print(f"=== Starting AutoPatcher for {self.project_path} ({self.project_type}) ===")
         
+        if not self.updater:
+            print("No valid updater found. Exiting.")
+            return
+
         # 1. Scan for Vulnerabilities
         report = self.scanner.scan()
         if not report:
@@ -64,7 +81,7 @@ class AutoPatcher:
             first_error = errors[0]
             print(f"  Fixing error in {os.path.basename(first_error['file'])}...")
             
-            if not self.fixer.fix_error(first_error):
+            if not self.fixer.fix_error(first_error, self.project_type):
                 print("  Fix failed. Aborting this upgrade.")
                 break
                 

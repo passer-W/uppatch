@@ -17,9 +17,30 @@ class SMTSolver:
         self.valid_java_versions = [8, 11, 17, 21]
         self.solver.add(z3.Or([self.java_version == v for v in self.valid_java_versions]))
         
+        # Define Python version variable (mapped to integers: 3.8 -> 308, 3.11 -> 311)
+        self.python_version = z3.Int('python_version')
+        self.valid_python_versions = [270, 360, 370, 380, 390, 3100, 3110, 3120] # 2.7, 3.6-3.12
+        self.solver.add(z3.Or([self.python_version == v for v in self.valid_python_versions]))
+
+        # Define Node version variable
+        self.node_version = z3.Int('node_version')
+        self.valid_node_versions = [12, 14, 16, 18, 20, 22]
+        self.solver.add(z3.Or([self.node_version == v for v in self.valid_node_versions]))
+        
         self.packages = {} # name -> z3_variable
         self.package_versions = {} # name -> list of actual version strings
         self.package_ver_map = {} # name -> {version_str: int_id}
+
+    def _python_ver_to_int(self, ver_str):
+        """Map '3.9' to 390, '3.11' to 3110"""
+        try:
+            parts = ver_str.split('.')
+            major = int(parts[0])
+            minor = int(parts[1]) if len(parts) > 1 else 0
+            return major * 100 + minor * 10
+        except:
+            return 0
+
 
     def _ver_to_int(self, version_str):
         """
@@ -66,13 +87,16 @@ class SMTSolver:
         if valid_ver_ints:
             self.solver.add(z3.Or([pkg_var == v for v in valid_ver_ints]))
 
-    def add_constraint(self, package_name, min_ver=None, max_ver=None, min_java=None, max_java=None):
+    def add_constraint(self, package_name, min_ver=None, max_ver=None, 
+                       min_java=None, max_java=None,
+                       min_python=None, max_python=None,
+                       min_node=None, max_node=None):
         """
         Add a compatibility constraint.
         E.g., "Package X versions [min_ver, max_ver) REQUIRES Java [min_java, max_java)"
         
-        Logic: If Package X is selected within range, THEN Java must be within range.
-        Implies( (min_ver <= Pkg < max_ver), (min_java <= Java < max_java) )
+        Logic: If Package X is selected within range, THEN environment (Java/Python/Node) must be within range.
+        Implies( (min_ver <= Pkg < max_ver), (min_env <= Env < max_env) )
         """
         if package_name not in self.packages:
             raise ValueError(f"Package {package_name} not registered")
@@ -91,20 +115,36 @@ class SMTSolver:
         else:
             pkg_condition = z3.And(pkg_conds)
 
-        # Build Java Condition
-        java_conds = []
-        if min_java:
-            java_conds.append(self.java_version >= min_java)
-        if max_java:
-            java_conds.append(self.java_version < max_java)
-            
-        if not java_conds:
-            java_condition = True
-        else:
-            java_condition = z3.And(java_conds)
+        # Build Environment Condition (Java OR Python OR Node)
+        # Assuming a package only constrains one runtime environment type at a time usually,
+        # but we can combine them with AND if multiple constraints exist.
+        env_conds = []
 
-        # Add Implication: If Package is in this version range, it implies Java constraints
-        self.solver.add(z3.Implies(pkg_condition, java_condition))
+        # Java Constraints
+        if min_java:
+            env_conds.append(self.java_version >= min_java)
+        if max_java:
+            env_conds.append(self.java_version < max_java)
+            
+        # Python Constraints
+        if min_python:
+            env_conds.append(self.python_version >= self._python_ver_to_int(min_python))
+        if max_python:
+            env_conds.append(self.python_version < self._python_ver_to_int(max_python))
+            
+        # Node Constraints
+        if min_node:
+            env_conds.append(self.node_version >= min_node)
+        if max_node:
+            env_conds.append(self.node_version < max_node)
+
+        if not env_conds:
+            env_condition = True
+        else:
+            env_condition = z3.And(env_conds)
+
+        # Add Implication: If Package is in this version range, it implies Environment constraints
+        self.solver.add(z3.Implies(pkg_condition, env_condition))
 
     def add_cve_constraint(self, package_name, vulnerable_ranges):
         """
@@ -145,7 +185,9 @@ class SMTSolver:
         if result == z3.sat:
             model = self.solver.model()
             solution = {
-                "java_version": model[self.java_version].as_long()
+                "java_version": model[self.java_version].as_long(),
+                "python_version": model[self.python_version].as_long(),
+                "node_version": model[self.node_version].as_long()
             }
             
             for name, var in self.packages.items():
@@ -193,13 +235,20 @@ def main():
         vulnerable_ranges=[("1.18.10", "1.18.25")]
     )
 
+    # 5. Add Python Package
+    solver.register_package("requests", ["2.25.0", "2.31.0"])
+    # requests 2.31.0 requires Python 3.7+
+    solver.add_constraint("requests", min_ver="2.31.0", min_python="3.7")
+
     # 3. Solve
     solution = solver.solve()
     if solution:
         print("Found valid configuration:")
         print(f"  Java Version: {solution['java_version']}")
+        print(f"  Python Version: {solution['python_version']}")
+        print(f"  Node Version: {solution['node_version']}")
         for pkg, ver in solution.items():
-            if pkg != "java_version":
+            if pkg not in ["java_version", "python_version", "node_version"]:
                 print(f"  {pkg}: {ver}")
     else:
         print("No valid configuration found.")

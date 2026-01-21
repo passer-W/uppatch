@@ -12,12 +12,20 @@ class GitHubCrawler:
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-    def search_repositories(self, min_stars=1000, limit=5):
-        """Search for Java Maven projects with high stars."""
-        print(f"Searching for Java projects with >{min_stars} stars...")
+    def search_repositories(self, min_stars=1000, limit=5, language="java"):
+        """Search for projects with high stars."""
+        print(f"Searching for {language} projects with >{min_stars} stars...")
         
-        # Query: language:java AND topic:maven AND stars:>min_stars
-        query = f"language:java topic:maven stars:>{min_stars}"
+        # Query construction
+        if language == "java":
+            query = f"language:java topic:maven stars:>{min_stars}"
+        elif language == "python":
+            query = f"language:python stars:>{min_stars}" # topic:pip is less common, just look for python
+        elif language == "javascript":
+            query = f"language:javascript stars:>{min_stars}"
+        else:
+            query = f"language:{language} stars:>{min_stars}"
+
         params = {
             "q": query,
             "sort": "stars",
@@ -87,14 +95,16 @@ class GitHubCrawler:
     def run(self):
         # Interactive mode
         try:
+            language = input("Language (java/python/javascript, default java): ").strip().lower() or "java"
             min_stars = int(input("Minimum stars (default 1000): ") or 1000)
             limit = int(input("Number of repos to fetch (default 5): ") or 5)
         except ValueError:
             print("Invalid input, using defaults.")
+            language = "java"
             min_stars = 1000
             limit = 5
 
-        repos = self.search_repositories(min_stars, limit)
+        repos = self.search_repositories(min_stars, limit, language)
         if not repos:
             return
 

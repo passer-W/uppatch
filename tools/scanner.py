@@ -8,6 +8,16 @@ class DependencyScanner:
 
     def __init__(self, project_path):
         self.project_path = project_path
+        self.project_type = self._detect_project_type()
+
+    def _detect_project_type(self):
+        if os.path.exists(os.path.join(self.project_path, "pom.xml")):
+            return "maven"
+        elif os.path.exists(os.path.join(self.project_path, "requirements.txt")):
+            return "pip"
+        elif os.path.exists(os.path.join(self.project_path, "package.json")):
+            return "npm"
+        return "unknown"
 
     def run_command(self, command):
         """Helper to run shell commands."""
@@ -27,8 +37,20 @@ class DependencyScanner:
             return -1, "", str(e)
 
     def get_dependencies(self):
+        """Scan dependencies based on project type."""
+        if self.project_type == "maven":
+            return self._get_maven_dependencies()
+        elif self.project_type == "pip":
+            return self._get_pip_dependencies()
+        elif self.project_type == "npm":
+            return self._get_npm_dependencies()
+        else:
+            print("Unknown project type.")
+            return []
+
+    def _get_maven_dependencies(self):
         """Run mvn dependency:list and parse the output."""
-        print("Scanning dependencies...")
+        print("Scanning Maven dependencies...")
         cmd = f"{Config.MAVEN_CMD} dependency:list -DoutputFile=deps.txt -DoutputAbsoluteArtifactFilename=true"
         code, _, err = self.run_command(cmd)
         
@@ -49,17 +71,65 @@ class DependencyScanner:
                             'groupId': parts[0],
                             'artifactId': parts[1],
                             'version': parts[3],
-                            'scope': parts[4] if len(parts) > 4 else 'compile'
+                            'scope': parts[4] if len(parts) > 4 else 'compile',
+                            'ecosystem': 'Maven'
                         })
             os.remove(deps_file)
         return deps
 
-    def check_cve(self, group_id, artifact_id, version):
+    def _get_pip_dependencies(self):
+        """Parse requirements.txt (simple parser)."""
+        print("Scanning Pip dependencies...")
+        deps = []
+        req_file = os.path.join(self.project_path, "requirements.txt")
+        if os.path.exists(req_file):
+            with open(req_file, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    # Very basic parsing: package==version
+                    if '==' in line:
+                        parts = line.split('==')
+                        deps.append({
+                            'groupId': 'pypi', # Placeholder
+                            'artifactId': parts[0].strip(),
+                            'version': parts[1].strip(),
+                            'ecosystem': 'PyPI'
+                        })
+        return deps
+
+    def _get_npm_dependencies(self):
+        """Use npm list --json."""
+        print("Scanning Npm dependencies...")
+        import json
+        cmd = f"{Config.NPM_CMD} list --json --depth=0"
+        code, out, err = self.run_command(cmd)
+        
+        deps = []
+        try:
+            data = json.loads(out)
+            dependencies = data.get('dependencies', {})
+            for name, info in dependencies.items():
+                if 'version' in info:
+                    deps.append({
+                        'groupId': 'npm',
+                        'artifactId': name,
+                        'version': info['version'],
+                        'ecosystem': 'npm'
+                    })
+        except Exception as e:
+            print(f"Error parsing npm output: {e}")
+        return deps
+
+    def check_cve(self, group_id, artifact_id, version, ecosystem="Maven"):
         """Query OSV.dev for vulnerabilities."""
+        package_name = f"{group_id}:{artifact_id}" if ecosystem == "Maven" else artifact_id
+        
         payload = {
             "package": {
-                "name": f"{group_id}:{artifact_id}",
-                "ecosystem": "Maven"
+                "name": package_name,
+                "ecosystem": ecosystem
             },
             "version": version
         }
@@ -95,7 +165,7 @@ class DependencyScanner:
         print(f"Found {len(deps)} dependencies. Checking for vulnerabilities...")
         
         for dep in deps:
-            vulns = self.check_cve(dep['groupId'], dep['artifactId'], dep['version'])
+            vulns = self.check_cve(dep['groupId'], dep['artifactId'], dep['version'], dep.get('ecosystem', 'Maven'))
             if vulns:
                 safe_ver = self.find_safe_version(vulns)
                 if safe_ver:

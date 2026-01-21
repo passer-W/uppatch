@@ -11,6 +11,8 @@ class Config:
     # Tool Configuration
     MAX_RETRIES = 3
     MAVEN_CMD = "mvn"
+    PIP_CMD = "pip"
+    NPM_CMD = "npm"
     
     # API URLs
     OSV_QUERY_URL = "https://api.osv.dev/v1/query"
